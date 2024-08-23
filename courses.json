@@ -1,0 +1,2746 @@
+[
+  {
+    "id": 1,
+    "logo": "api-testing-postman-restapis-course-cover.jpg",
+    "courseTitle": "API Testing using POSTMAN and RestAPIs",
+    "category": "Software Testing",
+    "instructor": "Pooja Bombatkar",
+    "instructors": [
+      {
+        "name": "Pooja Bombatkar",
+        "designation": "Quality Analysis Engineer",
+        "students": 1135,
+        "profileLink": "/instructor/pooja-bombatkar",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "pooja-bombatkar1.png",
+        "description": "ISTQB certified tester with 8+ years in software testing, skilled in Manual, Automation, API testing, and training others."
+      },
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+      {
+        "name": " Teshoo Rai",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/teshoo-rai",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "teshoo-rai1.png",
+        "description": "Teshoo Rai, with 5+ years in Java Automation & Selenium training, excels as a Senior Trainer and Automation Test Engineer."
+      },
+
+      {
+        "name": " Vaibhav Kakade",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/vaibhav-kakade",
+        "courses": 2,
+        "rating": 4.2,
+        "image": "vaibhav-kakade1.png",
+        "description": "Vaibhav, with 7+ years in teaching and training, excels in Manual Testing, Java Automation, and Corporate Training at TESTRIQ and CDPL."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.9)",
+    "sessions": "8 Sessions",
+    "hours": "15 hours",
+    "weeks": "2 weeks",
+    "seats": "80",
+    "joined": "40",
+    "instructorPic": "pooja-bombatkar.png",
+    "instructorName": "Pooja Bombatkar",
+    "instructorId": 3,
+    "shortDescription": "This course is designed to make you a highly skilled API Test Engineer with extensive knowledge of API testing methodologies, RestAPIs concepts, POSTMAN tool, and API Validation techniques.",
+    "coursePara1": "In today’s fast-paced world, IT industry professionals are in demand but often lack employability due to insufficient experiential training. CDPL is dedicated to bridging the gap between institutional education and industry demands.",
+    "coursePara2": "Through our API testing courses and API testing online course, we aim to meet the supply needs of IT employers by equipping graduates and working professionals with essential skills. Our certification training courses combine a comprehensive curriculum with practical skills, preparing students for various industries.",
+    "coursePara3": "Our API testing training online is conducted by software testing professionals with years of experience working with renowned organizations in India and abroad. These courses are designed to meet current industry standards and provide learners with advanced IT skills.",
+    "coursePara4": "CDPL's certification programs ensure that participants gain the knowledge and hands-on experience necessary to excel in the IT industry. Join our API automation testing course to enhance your career prospects and stay competitive in the ever-evolving tech landscape.",
+    "keyPoint1": [
+      "Become a Proficient API Test Engineer through this course.",
+      "Gain a solid understanding of API Testing concepts and the POSTMAN Tool by the course's conclusion.",
+      "Acquire practical exposure to API Testing through various projects.",
+      "Obtain hands-on experience with the POSTMAN tool for testing any type of API.",
+      "Learn to add different types of HTTP methods and requests in the POSTMAN tool.",
+      "Gain exposure to the JavaScript language for writing validation scripts.",
+      "Master the creation of environment variables in the POSTMAN tool."
+    ],
+
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Working professionals with non-IT experience who want to transition to the IT field.",
+      "Fresh graduates or postgraduates aiming to establish their careers in the IT domain."
+    ],
+
+    "lesson1": "Basics of API Testing",
+    "lesson1Topics": [
+      "What is API Testing",
+      "POSTMAN Introduction",
+      "POSTMAN Installation",
+      "Creating Workspace",
+      "Creating a Collection",
+      "Creating Requests - GET, POST, PUT, PATCH & DELETE",
+      "Saving & Editing Requests",
+      "Operations on Collections"
+    ],
+
+    "lesson2": "Creating Dummy API’s For API Testing",
+    "lesson2Topics": [
+      "How to Create Own APIs",
+      "JavaScript Object Notation (JSON)"
+    ],
+
+    "lesson3": "Validating Response by adding Test Scripts in POSTMAN",
+    "lesson3Topics": [
+      "Testing status codes",
+      "Testing headers",
+      "Testing cookies",
+      "Testing response time",
+      "Testing response body",
+      "Testing JSON Schema"
+    ],
+
+    "lesson4": "HTTP Request Validation in POSTMAN",
+    "lesson4Topics": [
+      "Testing status codes",
+      "Testing headers",
+      "Testing cookies",
+      "Testing response time",
+      "Testing response body",
+      "Testing JSON Schema"
+    ],
+
+    "lesson5": "Creating Environments in POSTMAN",
+
+    "lesson5Topics": [
+      "Benefits of adding Environment Variables",
+      "How to make use of environment variables"
+    ],
+
+    "lesson6": "API Testing Project",
+
+    "lesson6Topics": [
+      "API testing projects using POSTMAN and RestAPI’s",
+      "Creating JSON server for API testing",
+      "Creating API Test cases",
+      "Creating POSTMAN collection",
+      "Adding HTTPS requests",
+      "Executing Test cases in POSTMAN tool",
+      "Adding Validation and Assertions using JavaScript",
+      "Creating Variables and Environments in POSTMAN"
+    ]
+  },
+  {
+    "id": 2,
+    "logo": "java-programming-cover.jpg",
+    "courseTitle": "Java Programming",
+    "category": "Software Testing",
+    "instructor": "Teshoo Rai",
+    "instructors": [
+      {
+        "name": " Teshoo Rai",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/teshoo-rai",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "teshoo-rai1.png",
+        "description": "Teshoo Rai, with 5+ years in Java Automation & Selenium training, excels as a Senior Trainer and Automation Test Engineer."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(5.0)",
+    "sessions": "15 Sessions",
+    "hours": "30 hours",
+    "weeks": "4 weeks",
+    "seats": "80",
+    "joined": "50",
+    "instructorPic": "teshoo-rai.png",
+    "instructorName": "Teshoo Rai",
+    "instructorId": 2,
+    "shortDescription": "This course is tailored to make you a highly skilled Java Programmer with extensive knowledge of writing optimized and structured programs to solve real-world problems efficiently.",
+    "coursePara1": "Java is a widely-used programming language for developing web applications. It has remained a popular choice among developers and Test Engineers for over two decades, with millions of Java applications in use today. Java code offers programmers a plethora of high-level features such as garbage collection, runtime type checking, and reflection. In short, Java's enduring popularity can be attributed to two key factors: an incredibly rich community of developers and open-source projects, and a combination of features highly valued by large enterprises.",
+    "coursePara2": "Our Java programming course is meticulously crafted to equip you with sought-after Java programming skills, empowering you to advance your career. Whether you are a novice or an experienced developer, our Java programming classes are designed to enhance your expertise.",
+    "coursePara3": "Enroll in our Java course to gain comprehensive knowledge and practical experience with Java. For those aspiring to become full stack developers, our Java full stack developer course covers everything you need to know from front-end to back-end development.",
+    "coursePara4": "Validate your skills and boost your job prospects with our Java certification. Our Java online course offers flexibility and convenience, allowing you to learn at your own pace from anywhere in the world.",
+    "coursePara5": "If you're new to programming, our Java course for beginners provides a solid foundation, covering all essential concepts and practices. Our courses cater to learners of all levels, ensuring a thorough understanding of Java and its applications.",
+    "coursePara6": "Join our Java programming course today to master one of the most valuable and in-demand skills in the tech industry.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Java Programmer.",
+      "At the end of this course, participants will have a solid understanding of Java's syntax, data types, control structures, functions, and object-oriented programming concepts.",
+      "You will get hands-on practice through coding exercises and assignments, enabling learners to gain practical experience and confidence in using Java.",
+      "You will become proficient in writing optimized and structured programs using Object-Oriented Programming concepts.",
+      "You will develop the ability to apply Java programming principles to solve real-world problems efficiently and effectively."
+    ],
+
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Any working professional having experience in a non-IT domain and looking to get into the IT field.",
+      "Any Fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+
+    "lesson1": "Introduction to JAVA Programming",
+    "lesson1Topics": [
+      "What is JAVA?",
+      "Application of JAVA Programming",
+      "JAVA Installation",
+      "JAVA and Eclipse Environment setup",
+      "Understanding JAVA Console",
+      "Writing Basic Java program"
+    ],
+
+    "lesson2": "JAVA Basics",
+    "lesson2Topics": ["Data Types", " Variable"],
+
+    "lesson3": "Condition & Looping",
+    "lesson3Topics": [
+      "Java Operators",
+      "Conditional Statements",
+      " Loops and Jumping statements"
+    ],
+
+    "lesson4": "Arrays & Array Lists",
+    "lesson4Topics": ["Arrays & Array Lists"],
+
+    "lesson5": "String Functions",
+
+    "lesson5Topics": ["String Functions"],
+
+    "lesson6": "Object Oriented Programming Concepts",
+
+    "lesson6Topics": [
+      "Classes and Objects",
+      "Java methods",
+      "Passing Parameters to the Methods",
+      "Call by Value and Call by Reference",
+      "Java Constructor",
+      "Encapsulation",
+      "Setters and Getters",
+      "Polymorphism",
+      "Overloading Methods",
+      "Overloading Constructors",
+      "This keyword",
+      "Static Variables and Methods",
+      "Inheritance",
+      "Types of Inheritance",
+      "Abstraction",
+      "Abstract Class"
+    ],
+
+    "lesson7": "Static keyword",
+
+    "lesson7Topics": ["Static keyword"],
+
+    "lesson8": "Final keyword",
+
+    "lesson8Topics": ["Final keyword"],
+
+    "lesson9": "Data conversion functions",
+
+    "lesson9Topics": ["Data conversion functions"],
+
+    "lesson10": "Reading Input from keyboard",
+
+    "lesson10Topics": ["Reading Input from keyboard"],
+
+    "lesson11": "Interfaces",
+
+    "lesson11Topics": ["Interfaces"],
+
+    "lesson12": "Packages",
+
+    "lesson12Topics": ["Packages"],
+
+    "lesson13": "Access Modifiers",
+
+    "lesson13Topics": ["Access Modifiers"],
+
+    "lesson14": "JAVA Collections",
+
+    "lesson14Topics": ["JAVA Collections"],
+    "lesson15": "Exception Handling",
+
+    "lesson15Topics": ["Exception Handling"]
+  },
+  {
+    "id": 3,
+    "logo": "python-programming-course-cover.jpg",
+    "courseTitle": "Python Programming",
+    "category": "Data Science, AI & ML",
+    "instructor": "Shoeb Shaikh",
+    "instructors": [
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+
+      {
+        "name": " Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(5.0)",
+    "sessions": "15 Sessions",
+    "hours": "30 hours",
+    "weeks": "4 weeks",
+    "seats": "80",
+    "joined": "42",
+    "instructorPic": "shoeb-shaikh.png",
+    "instructorName": "Shoeb Shaikh",
+    "instructorId": 1,
+    "shortDescription": "This course is tailored to make you a highly skilled Python Programmer with extensive knowledge of writing optimized and structured Python programs to solve real-world problems efficiently.",
+    "coursePara1": "Python reigns as the world's most popular programming language, as indicated by the TIOBE Index. Its widespread adoption is owed to its unparalleled versatility, readability, extensive library support, thriving ecosystem, platform independence, ease of learning, support for multiple paradigms, and open-source nature. These attributes render Python indispensable for developers, software testers, data scientists, and businesses aiming to innovate, streamline processes, and foster growth in today's digital landscape.",
+    "coursePara2": "Our Python programming classes are meticulously crafted to furnish you with sought-after Python programming skills, empowering you to propel your career forward. Through our Python programming courses, participants gain comprehensive knowledge and hands-on experience, ensuring they are well-prepared for real-world applications.",
+    "coursePara3": "Join our Python certification course to validate your expertise and enhance your employability in the competitive job market. Our Python online course offers flexibility and convenience, allowing you to learn at your own pace from anywhere in the world.",
+    "coursePara4": "For those new to programming, our Python course for beginners provides a solid foundation, covering all essential concepts and practices. Our Python online classes are designed to cater to learners of all levels, ensuring a thorough understanding of Python and its applications.",
+    "coursePara5": "Enroll in our Python programming classes today to master one of the most valuable and in-demand skills in the tech industry.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Python Programmer.",
+      "At the end of this course, participants will have a solid understanding of Python's syntax, data types, control structures, functions, and object-oriented programming concepts.",
+      "You will get hands-on practice through coding exercises and assignments, enabling learners to gain practical experience and confidence in using Python.",
+      "You will become proficient in writing optimized and structured programs using Object-Oriented Programming concepts.",
+      "You will develop the ability to apply Python programming principles to solve real-world problems efficiently and effectively."
+    ],
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Any working professional having experience in a non-IT domain and looking to get into the IT field.",
+      "Any Fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+    "lesson1": "Introduction to Python Programming",
+    "lesson1Topics": [
+      "Introduction",
+      "Installation of Python",
+      "Installation of Jupyter Notebook",
+      "Installation of PyCharm"
+    ],
+
+    "lesson2": "Python Basics",
+    "lesson2Topics": [" Variable", "Data Types"],
+
+    "lesson3": "Python Range Function",
+    "lesson3Topics": [" Python Range Function"],
+
+    "lesson4": "Python String Function",
+    "lesson4Topics": [
+      "Python String operations",
+      " String Slicing",
+      " Iterating Over String"
+    ],
+
+    "lesson5": "Python List",
+
+    "lesson5Topics": [
+      "Python List operations",
+      " List Slicing",
+      "Iterating Over List"
+    ],
+
+    "lesson6": "Python Container Objects",
+
+    "lesson6Topics": ["Tuple", "Dictionary", " Sets", " Deque"],
+
+    "lesson7": "Condition & Looping",
+
+    "lesson7Topics": [
+      "If Condition",
+      "Else Condition",
+      "While Loop",
+      "For Loop",
+      "Break & Continue Statement"
+    ],
+
+    "lesson8": "Unpacking",
+
+    "lesson8Topics": [
+      "List Unpacking",
+      "Tuple Unpacking",
+      "Dictionary Unpacking"
+    ],
+
+    "lesson9": "Functions",
+
+    "lesson9Topics": ["Functions"],
+
+    "lesson10": "Object Oriented Programming (Classes & Objects)",
+
+    "lesson10Topics": [
+      "Classes (Simple to Advance)",
+      "Inheritance",
+      "Encapsulation",
+      "Polymorphism",
+      "Abstraction"
+    ],
+
+    "lesson11": "Exception Handling",
+
+    "lesson11Topics": ["Exception Handling"]
+  },
+  {
+    "id": 4,
+    "logo": "manual-software-testing-cover.jpg",
+    "courseTitle": "Manual Software Testing",
+    "category": "Software Testing",
+    "instructor": "Vaibhav Kakade",
+    "instructors": [
+      {
+        "name": " Vaibhav Kakade",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/vaibhav-kakade",
+        "courses": 2,
+        "rating": 4.2,
+        "image": "vaibhav-kakade1.png",
+        "description": "Vaibhav, with 7+ years in teaching and training, excels in Manual Testing, Java Automation, and Corporate Training at TESTRIQ and CDPL."
+      },
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+      {
+        "name": "Pooja Bombatkar",
+        "designation": "Quality Analysis Engineer",
+        "students": 1135,
+        "profileLink": "/instructor/pooja-bombatkar",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "pooja-bombatkar1.png",
+        "description": "ISTQB certified tester with 8+ years in software testing, skilled in Manual, Automation, API testing, and training others."
+      },
+      {
+        "name": " Teshoo Rai",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/teshoo-rai",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "teshoo-rai1.png",
+        "description": "Teshoo Rai, with 5+ years in Java Automation & Selenium training, excels as a Senior Trainer and Automation Test Engineer."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "beginner",
+    "rating": "(5.0)",
+    "sessions": "20 Sessions",
+    "hours": "40 hours",
+    "weeks": "5 weeks",
+    "seats": "80",
+    "joined": "41",
+    "instructorPic": "vaibhav-kakade.png",
+    "instructorName": "Vaibhav Kakade",
+    "instructorId": 5,
+    "shortDescription": "This course is tailored to make you a highly skilled Manual Test Engineer with extensive knowledge of testing methodologies, tools, and techniques.",
+    "coursePara1": "In today’s fast-paced world, IT industry professionals are in demand but often lack employability due to insufficient experiential training. CDPL is dedicated to bridging the gap between institutional education and industry demands.",
+    "coursePara2": "Through our manual testing course and manual testing course online, we aspire to meet the supply needs of IT employers by equipping graduates and working professionals with essential skills. Our certification training courses combine a comprehensive curriculum with practical skills, preparing students for various industries.",
+    "coursePara3": "Our manual testing classes online are conducted by software testing professionals with years of experience working with renowned organizations in India and abroad. These courses are designed to meet current industry standards and provide learners with advanced IT skills.",
+    "coursePara4": "CDPL's certification programs ensure that participants gain the knowledge and hands-on experience necessary to excel in the IT industry. Join our manual testing course to enhance your career prospects and stay competitive in the ever-evolving tech landscape.",
+    "keyPoint1": [
+      "This course will make you a Proficient Software Test Engineer.",
+      "At the end of this course, you will have a solid understanding of the SDLC & STLC life cycle.",
+      "Understanding of Defect Life Cycle and Bug tracking.",
+      "Complete understanding of different types of Software Testing with practical demonstration.",
+      "You will also understand how Agile Methodology works in an actual IT environment.",
+      "You will get hands-on experience of the TestRail, MantisBT, and JIRA tools.",
+      "Practical exposure to Web Application Testing with Projects."
+    ],
+
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Working professionals with non-IT experience who want to transition to the IT field.",
+      "Fresh graduates or postgraduates aiming to establish their careers in the IT domain."
+    ],
+
+    "lesson1": "Software Development Life Cycle. (SDLC)",
+    "lesson1Topics": ["Software Development Life Cycle. (SDLC)"],
+
+    "lesson2": "Types of SDLC",
+    "lesson2Topics": [
+      "Waterfall Model",
+      "Spiral Model",
+      "V-Model (V & V Model)",
+      "Prototype Model (Dynamic Model)",
+      "Hybrid Model"
+    ],
+
+    "lesson3": "What Is Software Testing?",
+    "lesson3Topics": ["What Is Software Testing?"],
+
+    "lesson4": "Software Testing Life Cycle. (STLC)",
+    "lesson4Topics": ["Software Testing Life Cycle. (STLC)"],
+
+    "lesson5": "Types of Software Testing & Usage in Corporate",
+
+    "lesson5Topics": [
+      "White Box Testing",
+      "Black Box Testing",
+      "General Difference between WBT & BBT"
+    ],
+
+    "lesson6": "Introduction to Black Box Testing",
+
+    "lesson6Topics": ["Introduction to Black Box Testing"],
+
+    "lesson7": "Types of Black Box Testing",
+
+    "lesson7Topics": [
+      "Functionality Testing",
+      "Integration Testing",
+      "System Testing",
+      "Acceptance Testing",
+      "Usability / GUI Testing",
+      "Performance Testing",
+      "Security Testing",
+      "Compatibility Testing",
+      "Responsive Testing",
+      "Configuration Testing",
+      "Reliability Testing",
+      "Accessibility Testing",
+      "Globalization / Localization Testing",
+      "Recovery Testing",
+      "Adhoc Testing",
+      "Requirement Testing",
+      "Documentation Testing",
+      "Exploratory Testing",
+      "Smoke Testing",
+      "Regression Testing",
+      "Sanity Testing",
+      "Re-Testing"
+    ],
+
+    "lesson8": "Defect Tracking Process",
+
+    "lesson8Topics": ["Defect Tracking Process"],
+
+    "lesson9": "Different Severity & Priority levels for defects",
+
+    "lesson9Topics": ["Different Severity & Priority levels for defects"],
+
+    "lesson10": "Defect Tracking Life Cycle. (DTLC) (Different statuses: Total 14 statuses)",
+
+    "lesson10Topics": [
+      "Defect Tracking Life Cycle. (DTLC) (Different statuses: Total 14 statuses)"
+    ],
+
+    "lesson11": "Agile Methodology. (Agile Model)",
+
+    "lesson11Topics": [
+      "Members Involved in Agile Model",
+      "What is Product Backlog?",
+      "Entire Agile Process"
+    ],
+
+    "lesson12": "Software Test Life Cycle (STLC) in detail",
+
+    "lesson12Topics": [
+      "System Study",
+      "Preparation of Test Plan",
+      "Test Cases Writing",
+      "Preparation of Traceability Matrix",
+      "Test Execution",
+      "Defect Tracking Life Cycle (DTLC)",
+      "Preparation of Test Execution Report",
+      "Retrospect Meeting"
+    ],
+
+    "lesson13": "Test Management Tools",
+
+    "lesson13Topics": [
+      "Excel: Test cases are mostly compiled in Excel sheets as it is free to use with good formatting options.",
+      "TestRail: It is a Test Case management tool with some default presets.",
+      "Jira: It is a Task Management tool followed by most companies across the globe, primarily used for Bug Tracking, Release Scheduling, and Sprint Management.",
+      "Mantis BT: It is a Bug Raising Tool that has some default presets to choose from."
+    ],
+
+    "lesson14": "Projects",
+
+    "lesson14Topics": [
+      "Testing Projects on various domains like E-Commerce Application, CRM application, Ticketing App, HR Management App, Gaming App and many more"
+    ]
+  },
+  {
+    "id": 9,
+    "logo": "advanced-software-testing-cover.jpg",
+    "courseTitle": "Advanced Software Testing",
+    "category": "Software Testing",
+    "instructor": "Shoeb Shaikh",
+    "instructors": [
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+      {
+        "name": "Pooja Bombatkar",
+        "designation": "Quality Analysis Engineer",
+        "students": 1135,
+        "profileLink": "/instructor/pooja-bombatkar",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "pooja-bombatkar1.png",
+        "description": "ISTQB certified tester with 8+ years in software testing, skilled in Manual, Automation, API testing, and training others."
+      },
+
+      {
+        "name": " Teshoo Rai",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/teshoo-rai",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "teshoo-rai1.png",
+        "description": "Teshoo Rai, with 5+ years in Java Automation & Selenium training, excels as a Senior Trainer and Automation Test Engineer."
+      },
+
+      {
+        "name": " Vaibhav Kakade",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/vaibhav-kakade",
+        "courses": 2,
+        "rating": 4.2,
+        "image": "vaibhav-kakade1.png",
+        "description": "Vaibhav, with 7+ years in teaching and training, excels in Manual Testing, Java Automation, and Corporate Training at TESTRIQ and CDPL."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "beginner",
+    "rating": "(5.0)",
+    "sessions": "45 Sessions",
+    "hours": "85 hours",
+    "weeks": "12 weeks",
+    "seats": "80",
+    "joined": "50",
+    "instructorPic": "shoeb-shaikh.png",
+    "instructorName": "Shoeb Shaikh",
+    "instructorId": 1,
+    "shortDescription": "This course is designed to shape you into a highly skilled Software Test Engineer, with extensive expertise in Manual Testing, API Testing, and Database Management Systems.",
+    "coursePara1": "This professional course covers Manual Software Testing, API Testing using the POSTMAN tool, and Database Management Systems. Manual testing is a crucial aspect of software quality assurance where a Test Engineer conducts quality checks without the use of automation tools. Its purpose is to ensure that the software performs as intended and meets both technical and business requirements. Manual quality assurance can detect design and usability defects that cannot be detected by Automation Testing. Even the most sophisticated automated test scripts cannot match what a human tester can see from a customer's perspective and comprehend on an emotional level.",
+    "coursePara2": "The heart and soul of any software application is the data stored in databases for retrieval and further processing. The database system selected for an application should meet the application's data processing and storage requirements. In this course, we will explore the MySQL Database Management System alongside Manual Software Testing.",
+    "coursePara3": "Join our software testing classes to gain in-depth knowledge and practical experience. Our software testing course is designed to cover essential quality assurance concepts and techniques. For those looking to further their expertise, our advanced manual testing module delves into complex testing strategies and methodologies.",
+    "coursePara4": "Our QA courses offer comprehensive training in both manual and automated testing, preparing you for various roles in the industry. With our software testing course online, you can learn at your own pace from anywhere in the world.",
+    "coursePara5": "For those interested in automation, our advanced automation testing segment provides hands-on experience with cutting-edge tools and practices. Aspiring to become an advanced level test automation engineer? Our course covers everything you need to excel in this role, from basic concepts to advanced techniques.",
+    "coursePara6": "Explore advanced manual testing concepts to understand intricate testing scenarios and improve your ability to identify subtle issues. Join our course today to master the skills needed for a successful career in software testing and quality assurance.",
+    "keyPoint1": [
+      "This course will make you a Proficient Software Test Engineer.",
+      "At the end of this course, you will have a solid understanding of the SDLC & STLC life cycle.",
+      "Understanding of Defect Life Cycle and Bug tracking.",
+      "Complete understanding of different types of Software Testing with practical demonstration.",
+      "You will also understand how Agile Methodology works in an actual IT environment.",
+      "Complete knowledge of API Testing and Validation.",
+      "You will get hands-on experience of the POSTMAN tool for testing any type of API.",
+      "You will be able to write SQL queries to handle and manage databases effectively.",
+      "Complete understanding of SQL basics and advanced concepts with many practice examples.",
+      "Practical exposure to Web Application Testing with Projects."
+    ],
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Working professionals with non-IT experience who want to transition to the IT field.",
+      "Fresh graduates or postgraduates aiming to establish their careers in the IT domain."
+    ],
+
+    "lesson1": "Software Development Life Cycle. (SDLC)",
+    "lesson1Topics": ["Software Development Life Cycle. (SDLC)"],
+
+    "lesson2": "Types of SDLC",
+    "lesson2Topics": [
+      "Waterfall Model",
+      "Spiral Model",
+      "V-Model (V & V Model)",
+      "Prototype Model (Dynamic Model)",
+      "Hybrid Model"
+    ],
+
+    "lesson3": "What Is Software Testing?",
+    "lesson3Topics": ["What Is Software Testing?"],
+
+    "lesson4": "Software Testing Life Cycle. (STLC)",
+    "lesson4Topics": ["Software Testing Life Cycle. (STLC)"],
+
+    "lesson5": "Types of Software Testing & Usage in Corporate",
+
+    "lesson5Topics": [
+      "White Box Testing",
+      "Black Box Testing",
+      "General Difference between WBT & BBT"
+    ],
+
+    "lesson6": "Introduction to Black Box Testing",
+
+    "lesson6Topics": ["Introduction to Black Box Testing"],
+
+    "lesson7": "Types of Black Box Testing",
+
+    "lesson7Topics": [
+      "Functionality Testing",
+      "Integration Testing",
+      "System Testing",
+      "Acceptance Testing",
+      "Usability / GUI Testing",
+      "Performance Testing",
+      "Security Testing",
+      "Compatibility Testing",
+      "Responsive Testing",
+      "Configuration Testing",
+      "Reliability Testing",
+      "Accessibility Testing",
+      "Globalization / Localization Testing",
+      "Recovery Testing",
+      "Adhoc Testing",
+      "Requirement Testing",
+      "Documentation Testing",
+      "Exploratory Testing",
+      "Smoke Testing",
+      "Regression Testing",
+      "Sanity Testing",
+      "Re-Testing"
+    ],
+
+    "lesson8": "Defect Tracking Process",
+
+    "lesson8Topics": ["Defect Tracking Process"],
+
+    "lesson9": "Different Severity & Priority levels for defects",
+
+    "lesson9Topics": ["Different Severity & Priority levels for defects"],
+
+    "lesson10": "Defect Tracking Life Cycle. (DTLC) (Different statuses: Total 14 statuses)",
+
+    "lesson10Topics": [
+      "Defect Tracking Life Cycle. (DTLC) (Different statuses: Total 14 statuses)"
+    ],
+
+    "lesson11": "Agile Methodology. (Agile Model)",
+
+    "lesson11Topics": [
+      "Members Involved in Agile Model",
+      "What is Product Backlog?",
+      "Entire Agile Process"
+    ],
+
+    "lesson12": "Software Test Life Cycle (STLC) in detail",
+
+    "lesson12Topics": [
+      "System Study",
+      "Preparation of Test Plan",
+      "Test Cases Writing",
+      "Preparation of Traceability Matrix",
+      "Test Execution",
+      "Defect Tracking Life Cycle (DTLC)",
+      "Preparation of Test Execution Report",
+      "Retrospect Meeting"
+    ],
+
+    "lesson13": "Test Management Tools",
+
+    "lesson13Topics": [
+      "Excel: Test cases are mostly compiled in Excel sheets as it is free to use with good formatting options.",
+      "TestRail: It is a Test Case management tool with some default presets.",
+      "Jira: It is a Task Management tool followed by most companies across the globe, primarily used for Bug Tracking, Release Scheduling, and Sprint Management.",
+      "Mantis BT: It is a Bug Raising Tool that has some default presets to choose from."
+    ],
+
+    "lesson14": "Projects",
+
+    "lesson14Topics": ["2 projects of different domains"],
+
+    "lesson15": "Basics of API Testing",
+    "lesson15Topics": [
+      "What is API Testing",
+      "POSTMAN Introduction",
+      "POSTMAN Installation",
+      "Creating Workspace",
+      "Creating a Collection",
+      "Creating Requests - GET, POST, PUT, PATCH & DELETE",
+      "Saving & Editing Requests",
+      "Operations on Collections"
+    ],
+
+    "lesson16": "Creating Dummy API’s For API Testing",
+    "lesson16Topics": [
+      "How to Create Own APIs",
+      "JavaScript Object Notation (JSON)"
+    ],
+
+    "lesson17": "Validating Response by adding Test Scripts in POSTMAN",
+    "lesson17Topics": [
+      "Testing status codes",
+      "Testing headers",
+      "Testing cookies",
+      "Testing response time",
+      "Testing response body",
+      "Testing JSON Schema"
+    ],
+
+    "lesson18": "Introduction to DBMS",
+    "lesson18Topics": ["Introduction to DBMS"],
+
+    "lesson19": "What is MySQL?",
+
+    "lesson19Topics": ["What is MySQL?"],
+
+    "lesson20": "Installation of MySQL",
+
+    "lesson20Topics": ["Installation of MySQL."],
+    "lesson21": "Overview of MySQL Workbench",
+
+    "lesson21Topics": ["Overview of MySQL Workbench"],
+    "lesson22": "Different Clauses in MySQL",
+
+    "lesson22Topics": [
+      "The SELECT Clause",
+      "The WHERE Clause",
+      "The AND, OR, and NOT Operators",
+      "The DISTINCT Operator",
+      "The IN Operator",
+      "The BETWEEN Operator",
+      "The LIKE Operator",
+      "The REGEXP Operator",
+      "The IS NULL Operator",
+      "The ORDER BY Clause",
+      "The LIMIT Clause",
+      "The GROUP BY Clause",
+      "The HAVING Clause"
+    ],
+    "lesson23": "Operators in MySQL",
+
+    "lesson23Topics": [
+      "Arithmetic Operators",
+      "Concatenation Operator",
+      "Comparison Operators",
+      "Relational Operator",
+      "Logical Operator",
+      "Special Operator"
+    ],
+    "lesson24": "TYPES OF JOINS",
+
+    "lesson24Topics": [
+      "INNER JOINS",
+      "JOINING ACROSS DATABASES",
+      "SELF JOINS",
+      "JOINING MULTIPLE TABLES",
+      "COMPOUND JOIN CONDITIONS",
+      "IMPLICIT JOIN SYNTAX",
+      "OUTER JOINS",
+      "OUTER JOIN BETWEEN MULTIPLE TABLES",
+      "SELF-OUTER JOINS",
+      "THE USING CLAUSE IN JOINS",
+      "NATURAL JOINS",
+      "CROSS JOINS",
+      "UNIONS"
+    ],
+    "lesson25": "SUB-QUERY",
+
+    "lesson25Topics": ["SUB-QUERY"],
+    "lesson26": "DATA DEFINITION LANGUAGE (DDL)",
+
+    "lesson26Topics": ["CREATE", "RENAME", "ALTER", "TRUNCATE", "DROP"],
+    "lesson27": "Data Manipulation Language (DML)",
+
+    "lesson27Topics": ["INSERT", "UPDATE", "DELETE"],
+    "lesson28": "Transaction Control Language (TCL)",
+
+    "lesson28Topics": ["COMMIT", "ROLLBACK", "SAVEPOINT"],
+    "lesson29": "Data Control Language (DCL)",
+
+    "lesson29Topics": ["GRANT", "REVOKE"],
+    "lesson30": "SQL Object",
+
+    "lesson30Topics": [
+      "TABLES",
+      "VIEWS",
+      "STORED PROCEDURES",
+      "FUNCTIONS",
+      "TRIGGERS"
+    ]
+  },
+  {
+    "id": 10,
+    "logo": "advanced-automation-testing-cover.jpg",
+    "courseTitle": "Advanced Automation Testing",
+    "category": "Software Testing",
+    "instructor": "Shoeb Shaikh",
+    "instructors": [
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+
+      {
+        "name": " Teshoo Rai",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/teshoo-rai",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "teshoo-rai1.png",
+        "description": "Teshoo Rai, with 5+ years in Java Automation & Selenium training, excels as a Senior Trainer and Automation Test Engineer."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "expert",
+    "rating": "(4.9)",
+    "sessions": "45 Sessions",
+    "hours": "85 hours",
+    "weeks": "12 weeks",
+    "seats": "80",
+    "joined": "45",
+    "instructorPic": "shoeb-shaikh.png",
+    "instructorName": "Shoeb Shaikh",
+    "instructorId": 1,
+    "shortDescription": "This course is tailored to make you a highly skilled Test Automation Engineer with extensive knowledge of Programming language, Web Automation Testing & Framework Design.",
+    "coursePara1": "Automation Testing is the process of testing various parts of software with little to no human involvement. Essentially, it makes sure every aspect of a software design works without a human sitting in front of a computer devoting hours to manual tests. With Automation Testing, one can execute thousands of varied and lengthy test cases that are impossible in manual testing. It can increase the depth of tests to improve software quality. ",
+    "coursePara2": "When one is planning to automate the testing of web applications, Selenium is the first thing that comes to mind. Selenium is a beneficial tool because it is not only open source but also a portable software testing framework for web applications that support multiple languages like Java, Python, C#, Ruby. Choosing the right language depends on the application under test, the supporting community, available test automation frameworks, usability, elegance, and of course seamless build integration.",
+    "coursePara3": "This course is designed to provide in-demand skills like Java/Python programming, Selenium WebDriver, Automation Framework Design, Git & Jenkins that can help you advance your career.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Automation Test Engineer.",
+      "At the end of this course, you will be able to implement Hybrid Automation Frameworks from scratch with all the latest technologies.",
+      "You will get complete knowledge on JAVA or Python programming from basics to advanced.",
+      "You will become proficient in writing optimized and structured JAVA programs using Object-Oriented Programming concepts.",
+      "Complete understanding of Selenium locators to automate webpages with ample practice examples.",
+      "You will learn Jenkins, TestNG & Maven integration with Selenium, which helps you to write real-time automation scripts and generate reports."
+    ],
+    "keyPoint2": [
+      "This course is designed for working professionals, graduates & undergraduates who have prior knowledge of Manual Testing and want to learn Automation Testing.",
+      "Prior knowledge of programming languages is not required. Everything will be covered from scratch.",
+      "This course can be combined with a Manual Software Testing course to gain complete and in-depth knowledge of Manual & Automation testing."
+    ],
+
+    "lesson1": "Programming Language (Python or Java)",
+    "lesson1Topics": [
+      "Principal Components Analysis (PCA)",
+      "Introduction to Python/Java Programming",
+      "Installation & Environment Settings",
+      "Python/Java Basics",
+      "Range/Arrays & Arrays List",
+      "Condition & Looping",
+      "Container Objects",
+      "Unpacking",
+      "Comprehensions/Data Conversion Function",
+      "Functions",
+      "Sorting",
+      "Object-Oriented Programming (Classes & objects)",
+      "Decorators/Access Modifiers",
+      "Regular Expression/Java Collection",
+      "Exception Handling"
+    ],
+
+    "lesson2": "Selenium WebDriver (Python & Java)",
+    "lesson2Topics": [
+      "Introduction to Automation",
+      "Introduction to Selenium",
+      "Installation of Selenium & Setting up the Environment",
+      "Browser-Related Operations",
+      "HTML Basics",
+      "Identification of Elements",
+      "Browser Navigation",
+      "Locators",
+      "Finding Elements",
+      "Finding Multiple Elements",
+      "Select Class",
+      "Selenium Synchronization",
+      "Handling Windows / Selenium Action Class (Mouse actions)",
+      "Selenium Screenshots",
+      "Selenium Common Exceptions"
+    ],
+
+    "lesson3": "Hybrid Framework Design Using  Python / Java Selenium",
+    "lesson3Topics": [
+      "What is Pytest Framework / TestNG Framework",
+      "Framework Structure",
+      "Page Object Model (POM)",
+      "Folder Structure for Hybrid Framework Design",
+      "Automation Test Cases",
+      "Automation Data Driven Test Cases from Excel",
+      "Generating HTML Reports & Test Logs",
+      "Generating Reports and Keeping Record of Failed Tasks",
+      "Hybrid Framework Design (End to End Project)"
+    ]
+  },
+  {
+    "id": 17,
+    "logo": "database-management-system-cover.jpg",
+    "courseTitle": "Database Management System",
+    "category": "Software Testing",
+    "instructor": "Vaibhav Kakade",
+    "instructors": [
+      {
+        "name": " Vaibhav Kakade",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/vaibhav-kakade",
+        "courses": 2,
+        "rating": 4.2,
+        "image": "vaibhav-kakade1.png",
+        "description": "Vaibhav, with 7+ years in teaching and training, excels in Manual Testing, Java Automation, and Corporate Training at TESTRIQ and CDPL."
+      },
+
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+
+      {
+        "name": " Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.8)",
+    "sessions": "15 Sessions",
+    "hours": "30 hours",
+    "weeks": "4 weeks",
+    "seats": "80",
+    "joined": "48",
+    "instructorPic": "vaibhav-kakade.png",
+    "instructorName": "Vaibhav Kakade",
+    "instructorId": 5,
+    "shortDescription": "This course is crafted to make you a highly skilled Database Engineer with extensive knowledge of SQL query writing, MySQL tool, and DBMS techniques.",
+    "coursePara1": "Database Management Systems (DBMS) play a pivotal role in modern-day information management across various industries. They allow for the systematic organization of vast amounts of data into logical structures such as tables, rows, and columns. This structured format enables efficient storage, retrieval, and manipulation of data.",
+    "coursePara2": "MySQL, as one of the most widely used relational database management systems globally, powers countless applications and websites. Through our database management system course, participants gain practical experience with robust and industry-standard database technology, enhancing their employability and readiness for real-world scenarios.",
+    "coursePara3": "Our DBMS course equips students with essential skills in designing, implementing, and managing databases, crucial for roles in software development, data analysis, and IT operations. Our comprehensive database management course ensures that learners acquire the knowledge needed to excel in various industries.",
+    "coursePara4": "Overall, enrolling in our DBMS online course empowers students with valuable knowledge and skills highly relevant and in-demand in today's technology-driven world. Join our database management system course to enhance your career prospects and gain expertise in one of the most critical areas of IT.",
+    "keyPoint1": [
+      "This course will make you a Proficient Database Engineer.",
+      "At the end of this course, you will have a solid understanding of DBMS and MySQL query writing.",
+      "You will be able to write DQL, DML, DDL, TCL, Joins, Sub-queries.",
+      "Complete understanding of SQL basics and advanced concepts with many practical examples."
+    ],
+
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Working professionals with non-IT experience who want to transition to the IT field.",
+      "Fresh graduates or postgraduates aiming to establish their careers in the IT domain."
+    ],
+
+    "lesson18": "Introduction to DBMS",
+    "lesson18Topics": ["Introduction to DBMS"],
+
+    "lesson19": "What is MySQL?",
+
+    "lesson19Topics": ["What is MySQL?"],
+
+    "lesson20": "Installation of MySQL",
+
+    "lesson20Topics": ["Installation of MySQL."],
+    "lesson21": "Overview of MySQL Workbench",
+
+    "lesson21Topics": ["Overview of MySQL Workbench"],
+    "lesson22": "Different Clauses in MySQL",
+
+    "lesson22Topics": [
+      "The SELECT Clause",
+      "The WHERE Clause",
+      "The AND, OR, and NOT Operators",
+      "The DISTINCT Operator",
+      "The IN Operator",
+      "The BETWEEN Operator",
+      "The LIKE Operator",
+      "The REGEXP Operator",
+      "The IS NULL Operator",
+      "The ORDER BY Clause",
+      "The LIMIT Clause",
+      "The GROUP BY Clause",
+      "The HAVING Clause"
+    ],
+    "lesson23": "Operators in MySQL",
+
+    "lesson23Topics": [
+      "Arithmetic Operators",
+      "Concatenation Operator",
+      "Comparison Operators",
+      "Relational Operator",
+      "Logical Operator",
+      "Special Operator"
+    ],
+    "lesson24": "TYPES OF JOINS",
+
+    "lesson24Topics": [
+      "INNER JOINS",
+      "JOINING ACROSS DATABASES",
+      "SELF JOINS",
+      "JOINING MULTIPLE TABLES",
+      "COMPOUND JOIN CONDITIONS",
+      "IMPLICIT JOIN SYNTAX",
+      "OUTER JOINS",
+      "OUTER JOIN BETWEEN MULTIPLE TABLES",
+      "SELF-OUTER JOINS",
+      "THE USING CLAUSE IN JOINS",
+      "NATURAL JOINS",
+      "CROSS JOINS",
+      "UNIONS"
+    ],
+    "lesson25": "SUB-QUERY",
+
+    "lesson25Topics": ["SUB-QUERY"],
+    "lesson26": "DATA DEFINITION LANGUAGE (DDL)",
+
+    "lesson26Topics": ["CREATE", "RENAME", "ALTER", "TRUNCATE", "DROP"],
+    "lesson27": "Data Manipulation Language (DML)",
+
+    "lesson27Topics": ["INSERT", "UPDATE", "DELETE"],
+    "lesson28": "Transaction Control Language (TCL)",
+
+    "lesson28Topics": ["COMMIT", "ROLLBACK", "SAVEPOINT"],
+    "lesson29": "Data Control Language (DCL)",
+
+    "lesson29Topics": ["GRANT", "REVOKE"],
+    "lesson30": "SQL Object",
+
+    "lesson30Topics": [
+      "TABLES",
+      "VIEWS",
+      "STORED PROCEDURES",
+      "FUNCTIONS",
+      "TRIGGERS"
+    ]
+  },
+  {
+    "id": 5,
+    "logo": "big-data-engineering-cover.jpg",
+    "courseTitle": "Big Data Engineering",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": "Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "beginner",
+    "rating": "(4.9)",
+    "sessions": "28 Sessions",
+    "hours": "55 hours",
+    "weeks": "7 weeks",
+    "seats": "80",
+    "joined": "58",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This Program is designed to make you an expert in Database Management System & Big Data Engineering using Hadoop, Apache Spark, and Databricks.",
+    "coursePara1": "Unlock the power of data with a Big Data Engineer role! Mastering Hadoop, Spark, and SQL skills is essential for managing and analyzing vast datasets. Become indispensable by joining our big data engineering course, where you'll learn these technologies to enable companies to make data-driven decisions, optimize processes, and gain a competitive edge. Be at the forefront of innovation, shape the future, and propel your career with Big Data expertise.",
+    "coursePara2": "Our big data engineer course online offers flexibility and convenience, allowing you to learn at your own pace from anywhere in the world. Enroll in the best big data engineering course to receive top-notch education and training. Our comprehensive big data engineering classes are designed to equip you with the skills needed to excel in this high-demand field.",
+    "coursePara3": "With a background in Big Data Engineering, you can secure a high-paying job as a Database Developer, Data Analyst, Hadoop Developer, Spark Developer, Data Integration Specialist, and various other profiles. Start your journey today and unlock new career opportunities with our big data engineering course.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Big Data Engineer.",
+      "At the end of this course, you will have a solid understanding of Database Management, Linux concepts used for Big Data Engineering, Hadoop & Spark on real projects.",
+      "You will be able to write MySQL queries to handle and manage databases effectively.",
+      "Complete understanding of different tools of Hadoop like Hive, Pig, Sqoop, and HBase with practical demonstration.",
+      "You will also understand how to use Databricks for big data sets with the help of Spark SQL & Scala.",
+      "Complete understanding of the PySpark library.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Big Data Engineering field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+    "lesson1": "Database Management System using MySQL",
+
+    "lesson2": "Introduction to DBMS",
+    "lesson2Topics": ["Introduction to DBMS"],
+
+    "lesson3": "What is MySQL?",
+    "lesson3Topics": ["What is MySQL?"],
+
+    "lesson4": "Installation of MySQL.",
+    "lesson4Topics": ["Installation of MySQL."],
+
+    "lesson5": "Overview of PostgreSQL",
+    "lesson5Topics": ["Overview of PostgreSQL"],
+
+    "lesson6": "Different Clauses in MySQL",
+    "lesson6Topics": [
+      "The SELECT Clause",
+      "The WHERE Clause",
+      "The AND, OR, and NOT Operators",
+      "The IN Operator",
+      "The BETWEEN Operator",
+      "The LIKE Operator",
+      "The REGEXP Operator",
+      "The IS NULL Operator",
+      "The ORDER BY Clause",
+      "The LIMIT Clause",
+      "The GROUP BY Clause",
+      "The HAVING Clause"
+    ],
+
+    "lesson7": "Operators in MySQL",
+    "lesson7Topics": [
+      "Arithmetic Operators",
+      "Concatenation Operator",
+      "Comparison Operators",
+      "Relational Operator",
+      "Logical Operator",
+      "Special Operator"
+    ],
+
+    "lesson8": "TYPES OF JOINS",
+    "lesson8Topics": [
+      "Inner Joins",
+      "Joining Across Databases",
+      "Self Joins",
+      "Joining Multiple Tables",
+      "Compound Join Conditions",
+      "Implicit Join Syntax",
+      "Outer Joins",
+      "Outer Join Between Multiple Tables",
+      "Self-outer Joins",
+      "The Using Clause In Joins",
+      "Natural Joins",
+      "Cross Joins",
+      "Unions"
+    ],
+
+    "lesson9": "SUB-QUERY",
+    "lesson9Topics": ["SUB-QUERY"],
+
+    "lesson10": "DATA DEFINITION LANGUAGE (DDL)",
+    "lesson10Topics": ["CREATE", "RENAME", "ALTER", "TRUNCATE", "DROP"],
+
+    "lesson11": "Data Manipulation Language (DML)",
+    "lesson11Topics": ["INSERT", "UPDATE", "DELETE"],
+
+    "lesson12": "Transaction Control Language (TCL)",
+    "lesson12Topics": ["COMMIT", "ROLLBACK", "SAVEPOINT"],
+
+    "lesson13": "Data Control Language (DCL)",
+    "lesson13Topics": ["GRANT", "REVOKE"],
+
+    "lesson14": "SQL Objects",
+    "lesson14Topics": [
+      "Tables",
+      "Views",
+      "Stored Procedures",
+      "Functions",
+      "Triggers"
+    ],
+
+    "lesson15": "Linux",
+
+    "lesson16": "Introduction to linux",
+    "lesson16Topics": [
+      "Installing and understanding linux",
+      "VMware",
+      "Redhat vs Ubuntu"
+    ],
+
+    "lesson17": "Linux(Ubuntu) basics",
+    "lesson17Topics": ["ubuntu directories", "ubuntu commands"],
+
+    "lesson18": "Big Data & Hadoop",
+
+    "lesson19": "Introduction to big data",
+    "lesson19Topics": [
+      "Installing and understanding linux",
+      "VMware",
+      "Redhat vs Ubuntu"
+    ],
+
+    "lesson20": "Introduction to hadoop",
+    "lesson20Topics": [
+      "Hadoop installation",
+      "Modes of hadoop installation",
+      "Hadoop installation directly using Cloudera quickstart VM"
+    ],
+
+    "lesson21": "Hadoop component",
+    "lesson21Topics": [
+      "HDFS",
+      "MAPReduce",
+      "Yarn",
+      "Hadoop 1.0 vs Hadoop 2.0 vs Hadoop 3.0"
+    ],
+
+    "lesson22": "Hadoop Tools beginner",
+    "lesson22Topics": ["Hive (HiveQL)", "Pig (PigLatin)"],
+
+    "lesson23": "Hadoop Tools Advance",
+    "lesson23Topics": ["Sqoop", "Hbase"],
+
+    "lesson24": "Big Data Engineering with Apache Spark & Databricks",
+
+    "lesson25": "Introduction to Apache Spark and Databricks",
+    "lesson25Topics": [
+      "Overview of Big Data and Spark",
+      "Introduction to Databricks",
+      "Setting up Databricks Environment"
+    ],
+
+    "lesson26": "Spark Basics",
+    "lesson26Topics": [
+      "RDDs (Resilient Distributed Datasets)",
+      "Transformations and Actions",
+      "Caching and Persistence"
+    ],
+
+    "lesson27": "Spark SQL and DataFrames",
+    "lesson27Topics": [
+      "Introduction to Spark SQL",
+      "Working with DataFrames",
+      "SQL Queries in Spark"
+    ],
+
+    "lesson28": "Spark Programming with Scala",
+    "lesson28Topics": [
+      "Broadcast variables and accumulators",
+      "Setting up a Spark application with Scala",
+      "Working with key-value pairs in Spark"
+    ],
+
+    "lesson29": "Advanced PySpark Programming",
+    "lesson29Topics": [
+      "PySpark machine learning library (MLlib)",
+      "Integrating PySpark with external libraries"
+    ]
+  },
+  {
+    "id": 6,
+    "logo": "machine-learning-algorithms-course-cover.jpg",
+    "courseTitle": "Machine Learning Algorithms",
+    "category": "Data Science, AI & ML",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": " Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.9)",
+    "sessions": "23 Sessions",
+    "hours": "45 hours",
+    "weeks": "7 weeks",
+    "seats": "80",
+    "joined": "53",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is tailored to make you a highly skilled Machine Learning Engineer with extensive knowledge of ML Algorithms and their implementation.",
+    "coursePara1": "If you have been considering getting into Data Science & Machine Learning, now is the time to start. Data science & Machine Learning jobs are becoming increasingly in demand as big data and technology industries grow. As you must be curious about what this field is all about.",
+    "coursePara2": "Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data. On the other hand, Machine learning analyzes and examines large chunks of data automatically.",
+    "coursePara3": "It automates the data analysis process and makes predictions in real time without any human involvement. You can further build and train the data model to make real-time predictions.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a Machine Learning Engineer, Data Scientist,, Human-Centered Machine Learning Designer and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Data Scientist and a Machine Learning Engineer.",
+      "At the end of this course, you will have a solid understanding of concepts used for Data Science & Machine Learning Algorithms on real projects.",
+      "Complete understanding of different types of Machine Learning Algorithms with practical demonstration.",
+      "You will also understand how to manipulate big data sets with the help of NumPy & Pandas.",
+      "Understanding of Data visualization using Matplotlib & Seaborn.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Data Science & Machine Learning field.",
+      "Any working professional with basic experience in the IT domain and looking to enter the Data Science & Machine Learning field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the Data Science & Machine Learning domain.",
+      "Note: Basic Python programming is a prerequisite for the course. Having knowledge of Python libraries like NumPy, Pandas, Seaborn, and Matplotlib is also beneficial."
+    ],
+
+    "lesson1": "Machine Learning Introduction",
+    "lesson1Topics": [
+      "What is DS/AI/ML with examples",
+      "ML Types",
+      "Algorithm vs Model",
+      "Using Google Colab"
+    ],
+
+    "lesson2": "SUPERVISED LEARNING",
+    "lesson2Topics": [
+      "Linear Regression with Ordinary Least Square (OLS)",
+      "Optimization Technique",
+      "Linear Regression with Stochastic Gradient Descent (SGD)",
+      "Logistic Regression",
+      "Decision Trees",
+      "Random Forests & Gradient Boosting",
+      "Ensemble Techniques",
+      "Support Vector Machines (SVM)",
+      "Naïve Bayes",
+      "KNN Algorithm"
+    ],
+
+    "lesson3": "UNSUPERVISED LEARNING",
+    "lesson3Topics": [
+      "Principal Components Analysis (PCA)",
+      "K-Means Clustering",
+      "Implementation of K-Means",
+      "Hierarchical Clustering",
+      "Types of Hierarchical Clustering",
+      "DBSCAN"
+    ]
+  },
+  {
+    "id": 8,
+    "logo": "advanced-business-analyst-cover.jpg",
+    "courseTitle": "Advanced Business Analytics",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "English",
+    "rating": "(5.0)",
+    "sessions": "50 Sessions",
+    "hours": "100 hours",
+    "weeks": "13 weeks",
+    "seats": "80",
+    "joined": "55",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This Advanced Business Analytics Program is crafted to make you an expert in Python and Excel visualizations, data analytics with Power BI and Tableau, and MySQL database management.",
+    "coursePara1": "If you have been considering getting into Business Intelligence, now is the time to start. Business Analyst jobs are becoming increasingly in demand as big data and technology industries grow. You must be curious about what this field is all about. Business analysts identify business areas that can be improved to increase efficiency and strengthen business processes. They often work closely with others throughout the business hierarchy to communicate their findings and help implement changes.",
+    "coursePara2": "Enroll in our advanced business analytics course to gain the skills needed to excel in this dynamic field. Our advanced business analysis training covers essential techniques and strategies to enhance business processes and drive efficiency. Our advanced business analyst course provides comprehensive instruction to prepare you for high-demand roles.",
+    "coursePara3": "For those looking for a more interactive learning experience, our advanced business analyst classes offer hands-on training and real-world applications. With a background in business intelligence, you can secure high-paying jobs as a PowerBI Engineer, Data Visualization Expert, Business Intelligence Developer, Tableau Developer, Data Analyst, and various other profiles.",
+    "coursePara4": "Start your journey today with our advanced business analytics course and unlock new career opportunities in Business Intelligence.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Business Analyst.",
+      "At the end of this course, you will have a solid understanding of Tableau & PowerBI tools used for Business Intelligence & Data Analytics on real projects.",
+      "Complete understanding of Data visualization using Python & Excel.",
+      "Learn in-depth Database Management System using MySQL.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Business Analytics field or wants to upgrade their analytical skills in their current profile.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ]
+  },
+  {
+    "id": 13,
+    "logo": "data-analytics-power-bi-cover.jpg",
+    "courseTitle": "Data Analytics with Power BI",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": "Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(5.0)",
+    "sessions": "10 Sessions",
+    "hours": "20 hours",
+    "weeks": "3 weeks",
+    "seats": "80",
+    "joined": "48",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is tailored to make you a Data Analytics expert in Power BI, offering deep insights into data modeling, visualizations, and advanced analytics techniques.",
+    "coursePara1": "If you have been considering getting into Business Intelligence, now is the time to start. Business Analyst jobs are becoming increasingly in demand as big data and technology industries grow. As you must be curious about what this field is all about.",
+    "coursePara2": "Business analysts identify business areas that can be improved to increase efficiency and strengthen business processes.",
+    "coursePara3": "They often work closely with others throughout the business hierarchy to communicate their findings and help implement changes.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a powerBI Engineer, Data visualization expert, Business Intelligence Developer, Data Analyst and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Business Analyst.",
+      "At the end of this course, you will have a solid understanding of PowerBI used for Business Intelligence & Data Visualization on real projects.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Data Science & Business Intelligence field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+
+    "lesson1": "Transform data using power query editor",
+    "lesson1Topics": [
+      "M- code and applied steps",
+      "How to load data from csv, excel",
+      "Load data from folder",
+      "Conditional columns",
+      "Transform vs add column"
+    ],
+
+    "lesson2": "Creating relationship model",
+    "lesson2Topics": [
+      "What are PowerBI relationships",
+      "Model View",
+      "Star vs Snowflake model",
+      "Bi-directional filters"
+    ],
+
+    "lesson3": "DAX",
+    "lesson3Topics": [
+      "Calculated columns vs measure",
+      "Implicit vs explicit measure",
+      "SUMX()",
+      "CALCULATE()",
+      "ALL()",
+      "Date time functions"
+    ],
+
+    "lesson4": "Creating interactive Dashboard",
+    "lesson4Topics": [
+      "Palindrome",
+      "Fibonacci",
+      "Factorial",
+      "Matrix",
+      "KPI",
+      "Line chart",
+      "Forecasting",
+      "Gauge",
+      "Maps"
+    ]
+  },
+
+  {
+    "id": 18,
+    "logo": "deep-learning-nlp-generative-ai-cover.jpg",
+    "courseTitle": "Deep Learning, NLP and GenerativeAI",
+    "category": "Data Science, AI & ML",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": " Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.8)",
+    "sessions": "28 Sessions",
+    "hours": "55 hours",
+    "weeks": "8 weeks",
+    "seats": "80",
+    "joined": "46",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is tailored to make you a skilled Data Scientist with extensive knowledge of Deep Learning algorithms, Natural Language Processing & Generative AI.",
+    "coursePara1": "If you have been considering getting into Generative AI & Deep Learning, now is the time to start. Generative AI & Deep Learning jobs are becoming increasingly in demand as ChatGPT and related technology industries grow. You must be curious about what this field is all about. Generative AI is a type of artificial intelligence technology that can produce various types of content, including text, imagery, audio, and synthetic data. On the other hand, Deep Learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain. Deep learning models can recognize complex patterns in pictures, text, sounds, and other data to produce accurate insights and predictions.",
+    "coursePara2": "With a background in deep learning, you can get a high-paying job as a Deep Learning Engineer, NLP Data Scientist, Generative AI expert, OCR expert, and various other profiles.",
+    "coursePara3": "Join our deep learning classes to gain comprehensive knowledge and practical skills in this exciting field. Our deep learning course is designed to cover essential concepts and techniques. Explore our deep learning ai courses to stay updated with the latest advancements in AI and deep learning.",
+    "coursePara4": "We offer the best deep learning course to ensure you receive top-notch education and training. Our deep learning online course provides flexibility and convenience, allowing you to learn at your own pace from anywhere in the world.",
+    "coursePara5": "Don't miss the opportunity to join the ranks of high-paying professionals in Generative AI & Deep Learning. Start your journey today with our deep learning classes and deep learning course.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Generative AI Expert and a Deep Learning Engineer.",
+      "At the end of this course, you will have a solid understanding of Natural Language Processing, Deep Learning, Statistics, and Generative AI concepts used on real projects.",
+      "You will be able to write a PyOCR script to detect objects.",
+      "Complete understanding of different types of Deep Learning Algorithms with practical demonstration.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in Deep Learning and NLP, who has some basic understanding of Python programming and the Machine Learning field.",
+      "Any working professional with experience in the IT domain.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+
+    "lesson1": "Deep Learning",
+
+    "lesson2": "Deep Learning introduction",
+    "lesson2Topics": ["Deep Learning introduction"],
+
+    "lesson3": "Deep Learning concepts",
+    "lesson3Topics": [
+      " Convolutional Neural Network (CNN)",
+      " Artificial Neural Network (ANN)"
+    ],
+
+    "lesson4": "Deep Learning concepts for generative AI",
+    "lesson4Topics": [
+      "Recurrent Neural Network (RNN)",
+      "Long Short Term Memory (LSTM)",
+      "Autoencoders"
+    ],
+
+    "lesson5": "Python List",
+
+    "lesson5Topics": [
+      "Python List operations",
+      " List Slicing",
+      "Iterating Over List"
+    ],
+
+    "lesson6": "Python Container Objects",
+
+    "lesson6Topics": ["Tuple", "Dictionary", " Sets", " Deque"],
+
+    "lesson7": "Condition & Looping",
+
+    "lesson7Topics": [
+      "If Condition",
+      "Else Condition",
+      "While Loop",
+      "For Loop",
+      "Break & Continue Statement"
+    ],
+
+    "lesson8": "Unpacking",
+
+    "lesson8Topics": [
+      "List Unpacking",
+      "Tuple Unpacking",
+      "Dictionary Unpacking"
+    ],
+
+    "lesson9": "Functions",
+
+    "lesson9Topics": ["Functions"],
+
+    "lesson10": "Object Oriented Programming (Classes & Objects)",
+
+    "lesson10Topics": [
+      "Classes (Simple to Advance)",
+      "Inheritance",
+      "Encapsulation",
+      "Polymorphism",
+      "Abstraction"
+    ],
+
+    "lesson11": "Exception Handling",
+
+    "lesson11Topics": ["Exception Handling"]
+  },
+  {
+    "id": 11,
+    "logo": "prompt-engineering-gen-ai-cover.jpg",
+    "courseTitle": "Prompt Engineering with Gen AI ",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": "Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.8)",
+    "sessions": "10 Sessions",
+    "hours": "20 hours",
+    "weeks": "3 weeks",
+    "seats": "80",
+    "joined": "43",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is tailored to make you an expert in Prompt Engineering with Generative AI, equipping you with advanced skills to craft effective prompts and leverage AI models for creative and analytical tasks.",
+    "coursePara1": "If you have been considering getting into Generative AI, now is the time to start. Generative AI jobs are becoming increasingly in demand as ChatGPT and related technology industries grow. You must be curious about what this field is all about. Generative AI is a type of artificial intelligence technology that can produce various types of content, including text, imagery, audio, and synthetic data. On the other hand, Deep Learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain. It uses Deep Learning models, which can recognize complex patterns in pictures, text, sounds, and other data to produce accurate insights and predictions.",
+    "coursePara2": "With a background in machine learning, you can get a high-paying job as a Prompt Engineer, Generative AI expert, and various other profiles. Additionally, it will also help you with your current occupation.",
+    "coursePara3": "Enroll in our prompt engineering course to gain the skills needed to excel in this cutting-edge field. Our AI prompt engineering course covers essential concepts and practical techniques to help you become proficient in creating and managing AI-generated content. Our prompt engineer course provides comprehensive training designed to equip you with the knowledge required for high-demand roles.",
+    "coursePara4": "For a more focused learning experience, join our AI prompt course to delve deeper into the specifics of prompt engineering in AI. Start your journey today with our specialized courses and unlock new career opportunities in Generative AI.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Generative AI Expert.",
+      "At the end of this course, you will have a solid understanding of prompt engineering and Generative AI tools used on real projects.",
+      "You will be able to use large language models, large image models, video models, and text-to-speech models efficiently.",
+      "Complete understanding of different types of Generative AI tools with practical demonstration.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in Generative AI. ML/DS knowledge is not at all compulsory for this course.",
+      "Any working professional with experience in the non-IT/IT domain.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain.",
+      "Anyone looking to leverage the power of Generative AI in their day-to-day occupation."
+    ],
+
+    "lesson1": "Introduction to Data visualization",
+    "lesson1Topics": ["Introduction to Generative Learning"],
+
+    "lesson2": "Generative Learning Technical concepts",
+    "lesson2Topics": ["Foundation models", "fine tuning (transfer Learning)"],
+
+    "lesson3": "Large Language Models(LLM)",
+    "lesson3Topics": ["Bing", "Bard", "ChatGPT"],
+
+    "lesson4": "Large Image Model (LIM)",
+    "lesson4Topics": ["Stable diffusion", "Leonardo.ai", "Adobe firefly"],
+
+    "lesson5": "Video and speech tools",
+    "lesson5Topics": ["veed.io", "PlayHT, Climpchamp and suno.ai"],
+
+    "lesson6": "Prompt Engineering",
+    "lesson6Topics": ["ICOC", "ZERO shot, ONE shot and Few Shot prompting"],
+
+    "lesson7": "CASE STUDY",
+    "lesson7Topics": ["Coca-cola real magic"]
+  },
+  {
+    "id": 14,
+    "logo": "data-analytics-tableau-cover.jpg",
+    "courseTitle": "Data Analytics with Tableau",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": "Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.9)",
+    "sessions": "10 Sessions",
+    "hours": "20 hours",
+    "weeks": "3 weeks",
+    "seats": "80",
+    "joined": "46",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is designed to make you a Data Analytics expert in Tableau, providing comprehensive knowledge of data visualization, dashboards, and advanced analytics techniques.",
+    "coursePara1": "If you have been considering getting into Business Intelligence, now is the time to start. Business Analyst jobs are becoming increasingly in demand as big data and technology industries grow.",
+    "coursePara2": "As you must be curious about what this field is all about. Business analysts identify business areas that can be improved to increase efficiency and strengthen business processes.",
+    "coursePara3": "They often work closely with others throughout the business hierarchy to communicate their findings and help implement changes.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a  Data visualization expert, Business Intelligence Developer, Tableau Developer, Data Analyst and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Business Analyst.",
+      "At the end of this course, you will have a solid understanding of Tableau concepts used for Business Intelligence & Data Visualization on real projects.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Data Science & Business Intelligence field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+
+    "lesson1": "Introduction to Data visualization",
+    "lesson1Topics": ["What Is Data visualization?"],
+
+    "lesson2": "Introduction to Business Intelligence",
+    "lesson2Topics": [
+      "What Is Business Intelligence?",
+      "Why Business Intelligence?",
+      "Tools used for Business Intelligence"
+    ],
+
+    "lesson3": "Tableau Basics",
+    "lesson3Topics": [
+      "Data Connection",
+      "Tableau Interface and 14 Basic Chart Types",
+      "Dimensions and measures"
+    ],
+
+    "lesson4": "Tableau Intermediate",
+    "lesson4Topics": [
+      "Working with Metadata",
+      "Calculated field",
+      "Bins and parameters",
+      "Mapping",
+      "Calculations"
+    ],
+
+    "lesson5": "Tableau Dashboard and story",
+    "lesson5Topics": ["Customer segmentation project"],
+
+    "lesson6": "AI in tableau",
+    "lesson6Topics": ["Group", "Clustering", "Forecasting"]
+  },
+  {
+    "id": 15,
+    "logo": "data-visualization-excel-cover.jpg",
+    "courseTitle": "Data Visualization in Excel",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": "Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(5.0)",
+    "sessions": "8 Sessions",
+    "hours": "15 hours",
+    "weeks": "2 weeks",
+    "seats": "80",
+    "joined": "41",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is crafted to transform you into an Excel Data Visualization expert, providing comprehensive knowledge of charts, graphs, dashboards, and advanced Excel visualization techniques.",
+    "coursePara1": "If you have been considering getting into Business Intelligence, now is the time to start. Business Analyst jobs are becoming increasingly in demand as big data and technology industries grow.",
+    "coursePara2": "As you must be curious about what this field is all about. Business analysts identify business areas that can be improved to increase efficiency and strengthen business processes.",
+    "coursePara3": "They often work closely with others throughout the business hierarchy to communicate their findings and help implement changes.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a Data visualization expert, Business Intelligence Developer, Excel Developer, Data Analyst and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Business Analyst.",
+      "At the end of this course, you will have a solid understanding of Excel concepts used for Business Intelligence & Data Visualization on real projects.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Data Science & Machine Learning field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ],
+    "lesson1": "Introduction",
+    "lesson1Topics": [
+      "Excel interface, ribbons, tabs, workspace, navigations, basic Short-cuts"
+    ],
+
+    "lesson2": "Data Entry and Editing",
+    "lesson2Topics": [
+      "Entry, Modify, delete, Dealing with duplicates, Auto fill and flash fill, freeze"
+    ],
+
+    "lesson3": "Basic Formulas and Functions",
+    "lesson3Topics": [
+      "Diff between Formula and Function",
+      "Arithmetic Operators – Sum, avg, min/max, and more.",
+      "Logical Operators – If, AND, OR."
+    ],
+
+    "lesson4": "Data Manipulation:",
+    "lesson4Topics": [
+      "Sorting and Filtering – Custom sort, Filter using criteria",
+      "Conditional Formatting - Highlighting cells based on rules, Creating custom rules",
+      "Data Validation - Setting up input restrictions, Creating drop-down lists",
+      "Text Functions - LEFT, RIGHT, MID, LEN, and CONCATENATE",
+      "Date and Time Functions - DATE, TODAY, NOW, DAY, MONTH, YEAR, and DATEDIF"
+    ],
+
+    "lesson5": "Data Visualization:",
+    "lesson5Topics": [
+      "Pivot Tables and Pivot Charts",
+      "Charts and Graphs - bar, line, pie, scatter, and more."
+    ],
+
+    "lesson6": "Statistics using Excel:",
+    "lesson6Topics": [
+      "Descriptive statistics – Mean, median, mode, etc.",
+      "Data Analysis – Linear regression, trendline, etc."
+    ],
+
+    "lesson7": "Advanced Formulas and Functions:",
+    "lesson7Topics": [
+      "Lookup and Reference Functions - VLOOKUP, HLOOKUP, XLOOKUP, INDEX, MATCH",
+      "Nested Functions",
+      "Error Handling"
+    ],
+
+    "lesson8": "Power Query:",
+    "lesson8Topics": ["Introduction to Power Query and examples"],
+
+    "lesson9": "Dashboarding and Reporting:",
+    "lesson9Topics": ["Creating Interactive Dashboards", "Storytelling"],
+
+    "lesson10": "Data Analytics & Visualization Projects:",
+    "lesson10Topics": ["Data Analytics & Visualization Projects"]
+  },
+  {
+    "id": 16,
+    "logo": "data-visualization-python-cover.jpg",
+    "courseTitle": "Data Visualization in Python",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "instructors": [
+      {
+        "name": "Esha Prakash",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/esha-prakash",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "esha-prakash1.png",
+        "description": "Esha, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      },
+
+      {
+        "name": "Rehmat Shaikh",
+        "designation": "Data Science Domain Head",
+        "students": 1435,
+        "profileLink": "/instructor/rehmat-haikh",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "shaikh-rehemat1.png",
+        "description": "Rehemat, a Data Science Trainer with expertise in AI-ML, BI, and Big Data, excels in mentoring and content creation at CDPL."
+      }
+    ],
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(5.0)",
+    "sessions": "8 Sessions",
+    "hours": "15 hours",
+    "weeks": "2 weeks",
+    "seats": "80",
+    "joined": "55",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is designed to make you an expert in Python visualization, equipping you with in-depth knowledge of Matplotlib, Seaborn, and other Python visualization libraries and techniques.",
+    "coursePara1": "If you have been considering getting into Business Intelligence or Data Analysis, now is the time to start. Business Analyst jobs are becoming increasingly in demand as big data and technology industries grow. As you must be curious about what this field is all about.",
+    "coursePara2": "Business analysts identify business areas that can be improved to increase efficiency and strengthen business processes.",
+    "coursePara3": "They often work closely with others throughout the business hierarchy to communicate their findings and help implement changes.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a Data visualization expert, Business Intelligence Developer, Data Analyst and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Business Analyst.",
+      "At the end of this course, you will have a solid understanding of Python Visualization concepts used for Business Intelligence & Data Visualization on real projects.",
+      "Complete understanding of Data visualization using NumPy, Pandas, Matplotlib, and Seaborn.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in Data Science, Business Intelligence & Machine Learning field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain.",
+      "Learners with basic Python skills are preferred."
+    ],
+    "lesson1": "NUMPY",
+    "lesson1Topics": [
+      "Introduction to Numpy",
+      "NumPy Array",
+      "Array Attributes",
+      "Array Methods"
+    ],
+
+    "lesson2": "PANDAS",
+    "lesson2Topics": [
+      "Introduction to Pandas",
+      "Pandas Series",
+      "Accessing Series Elements",
+      "Pandas Data frame – Introduction",
+      "Data frame Creation",
+      "Reading Data from Various Files",
+      "Accessing Data frame",
+      "Data frame Sorting",
+      "Data frame Concatenation",
+      "Data frame Joins",
+      "Data frame Merge",
+      "Reshaping Data frame",
+      "Data frame Operations",
+      "Data frame methods - head(),tail, dType, shape, get_dummies",
+      "Checking Duplicates",
+      "Dropping Rows and Columns",
+      "Replacing Values",
+      "Missing Value Analysis & Treatment"
+    ],
+
+    "lesson3": "VISUALIZATION USING MATPLOTLIB",
+    "lesson3Topics": [
+      "Plot Styles & Settings",
+      "Line Plot",
+      "Multiline Plot",
+      "Matplotlib",
+      "Subplots",
+      "Histogram",
+      "Boxplot",
+      "Pie Chart",
+      "Scatter Plot"
+    ],
+
+    "lesson4": "VISUALIZATION USING SEABORN",
+    "lesson4Topics": [
+      "Strip plot",
+      "Distribution plot",
+      "Joint plot",
+      "Violin plot",
+      "Swarm plot",
+      "Pair plot",
+      "Count plot",
+      "Heatmap"
+    ]
+  },
+  {
+    "id": 20,
+    "logo": "advanced-manual-automation-testing-master-program-cover.jpg",
+    "courseTitle": "Advanced Manual and Automation Testing - Master Program",
+    "category": "Software Testing",
+    "instructor": "Shoeb Shaikh",
+    "instructors": [
+      {
+        "name": " Shoeb Shaikh",
+        "designation": "Head - Learning and Development",
+        "students": 1435,
+        "profileLink": "/instructor/shoeb-shaikh",
+        "courses": 4,
+        "rating": 4.2,
+        "image": "shoeb-shaikh1.png",
+        "description": "With 14+ years in software testing, data science, and EdTech, Shoeb leads L&D at Cinute Digital and QA at TESTRIQ QA Lab."
+      },
+
+      {
+        "name": "Pooja Bombatkar",
+        "designation": "Quality Analysis Engineer",
+        "students": 1135,
+        "profileLink": "/instructor/pooja-bombatkar",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "pooja-bombatkar1.png",
+        "description": "ISTQB certified tester with 8+ years in software testing, skilled in Manual, Automation, API testing, and training others."
+      },
+      {
+        "name": " Teshoo Rai",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/teshoo-rai",
+        "courses": 1,
+        "rating": 4.2,
+        "image": "teshoo-rai1.png",
+        "description": "Teshoo Rai, with 5+ years in Java Automation & Selenium training, excels as a Senior Trainer and Automation Test Engineer."
+      },
+
+      {
+        "name": " Vaibhav Kakade",
+        "designation": "Quality Analysis Engineer",
+        "students": 1435,
+        "profileLink": "/instructor/vaibhav-kakade",
+        "courses": 2,
+        "rating": 4.2,
+        "image": "vaibhav-kakade1.png",
+        "description": "Vaibhav, with 7+ years in teaching and training, excels in Manual Testing, Java Automation, and Corporate Training at TESTRIQ and CDPL."
+      }
+    ],
+    "catcls": ["cat-one"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(5.0)",
+    "sessions": "90 Sessions",
+    "hours": "170 hours",
+    "weeks": "24 weeks",
+    "seats": "80",
+    "joined": "58",
+    "instructorPic": "shoeb-shaikh.png",
+    "instructorName": "Shoeb Shaikh",
+    "instructorId": 1,
+    "shortDescription": "This Master Program transforms you into a highly skilled Software Test Engineer, proficient in Manual and API Testing, Database Management Systems, and Web Automation Testing & Framework Design.",
+    "coursePara1": "This professional course covers Manual Software Testing, API Testing using the POSTMAN tool, Database Management System, and Automation Testing using Selenium.",
+    "coursePara2": "Talking about Automation Testing, it involves testing various components of software with minimal human involvement. It ensures that all aspects of a software design are functional without the need for human manual testing.",
+    "coursePara3": "When planning to automate web application testing, Selenium is often the preferred choice due to its open-source nature and its ability to support multiple languages such as Python, Java, C#, and Ruby. Choosing the right language depends on various factors such as the application under test, the supporting community, available test automation frameworks, usability, elegance, and seamless build integration.",
+    "coursePara4": "This course is designed to equip you with in-demand skills such as Manual Software Testing, API Testing, DBMS, Python or Java programming language, Selenium WebDriver, and Automation Framework Design which can help you advance your career.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Software Test Engineer.",
+      "At the end of this course, you will have a solid understanding of the SDLC & STLC life cycle.",
+      "Understanding of Defect Life Cycle and Bug tracking.",
+      "Complete understanding of different types of Software Testing with practical demonstration.",
+      "Complete knowledge of API Testing and Validation.",
+      "You will get hands-on experience with the POSTMAN tool for testing any type of API.",
+      "You will be able to write SQL queries to handle and manage databases effectively.",
+      "Complete understanding of SQL basics and advanced concepts with many practice examples.",
+      "Practical exposure to Web Application Testing with Projects.",
+      "You will be able to implement Hybrid Python Selenium Automation Frameworks from scratch with all the latest technologies.",
+      "You will get complete knowledge of Python or Java programming from basics to advanced.",
+      "You will become proficient in writing optimized and structured programs using Object-Oriented Programming concepts and comprehension expressions.",
+      "Complete understanding of Selenium locators to automate webpages with ample practice examples.",
+      "You will learn Test Framework & Page Object Model, which helps you to write real-time automation scripts.",
+      "You will learn how to generate HTML reports and Allure reports during runtime."
+    ],
+
+    "keyPoint2": [
+      "Undergraduates or job seekers seeking to launch their careers in the IT domain.",
+      "Working professionals with non-IT experience who want to transition to the IT field.",
+      "Fresh graduates or postgraduates aiming to establish their careers in the IT domain.",
+      "This course is crafted for working professionals, graduates, and undergraduates who desire to acquire knowledge in both Manual Testing and Automation Testing."
+    ],
+
+    "lesson1": "Manual Software Testing",
+
+    "lesson2": "Software Development Life Cycle. (SDLC)",
+    "lesson2Topics": ["Software Development Life Cycle. (SDLC)"],
+
+    "lesson3": "Types of SDLC",
+    "lessonTopics": [
+      "Waterfall Model",
+      "Spiral Model",
+      "V-Model (V & V Model)",
+      "Prototype Model (Dynamic Model)",
+      "Hybrid Model"
+    ],
+
+    "lesson4": "What Is Software Testing?",
+    "lesson4Topics": ["What Is Software Testing?"],
+
+    "lesson5": "Software Testing Life Cycle. (STLC)",
+    "lesson5Topics": ["Software Testing Life Cycle. (STLC)"],
+
+    "lesson6": "Types of Software Testing & Usage in Corporate",
+
+    "lesson6Topics": [
+      "White Box Testing",
+      "Black Box Testing",
+      "General Difference between WBT & BBT"
+    ],
+
+    "lesson7": "Introduction to Black Box Testing",
+
+    "lesson7Topics": ["Introduction to Black Box Testing"],
+
+    "lesson8": "Types of Black Box Testing",
+
+    "lesson8Topics": [
+      "Functionality Testing",
+      "Integration Testing",
+      "System Testing",
+      "Acceptance Testing",
+      "Usability / GUI Testing",
+      "Performance Testing",
+      "Security Testing",
+      "Compatibility Testing",
+      "Responsive Testing",
+      "Configuration Testing",
+      "Reliability Testing",
+      "Accessibility Testing",
+      "Globalization / Localization Testing",
+      "Recovery Testing",
+      "Adhoc Testing",
+      "Requirement Testing",
+      "Documentation Testing",
+      "Exploratory Testing",
+      "Smoke Testing",
+      "Regression Testing",
+      "Sanity Testing",
+      "Re-Testing"
+    ],
+
+    "lesson9": "Defect Tracking Process",
+
+    "lesson9Topics": ["Defect Tracking Process"],
+
+    "lesson10": "Different Severity & Priority levels for defects",
+
+    "lesson10Topics": ["Different Severity & Priority levels for defects"],
+
+    "lesson11": "Defect Tracking Life Cycle. (DTLC) (Different statuses: Total 14 statuses)",
+
+    "lesson11Topics": [
+      "Defect Tracking Life Cycle. (DTLC) (Different statuses: Total 14 statuses)"
+    ],
+
+    "lesson12": "Agile Methodology. (Agile Model)",
+
+    "lesson12Topics": [
+      "Members Involved in Agile Model",
+      "What is Product Backlog?",
+      "Entire Agile Process"
+    ],
+
+    "lesson13": "Software Test Life Cycle (STLC) in detail",
+
+    "lesson13Topics": [
+      "System Study",
+      "Preparation of Test Plan",
+      "Test Cases Writing",
+      "Preparation of Traceability Matrix",
+      "Test Execution",
+      "Defect Tracking Life Cycle (DTLC)",
+      "Preparation of Test Execution Report",
+      "Retrospect Meeting"
+    ],
+
+    "lesson14": "Test Management Tools",
+
+    "lesson14Topics": [
+      "Excel: Test cases are mostly compiled in Excel sheets as it is free to use with good formatting options.",
+      "TestRail: It is a Test Case management tool with some default presets.",
+      "Jira: It is a Task Management tool followed by most companies across the globe, primarily used for Bug Tracking, Release Scheduling, and Sprint Management.",
+      "Mantis BT: It is a Bug Raising Tool that has some default presets to choose from."
+    ],
+
+    "lesson15": "API Testing",
+
+    "lesson16": "Basics of API Testing",
+    "lesson16Topics": [
+      "What is API Testing",
+      "POSTMAN Introduction",
+      "POSTMAN Installation",
+      "Creating Workspace",
+      "Creating a Collection",
+      "Creating Requests - GET, POST, PUT, PATCH & DELETE",
+      "Saving & Editing Requests",
+      "Operations on Collections"
+    ],
+
+    "lesson17": "Creating Dummy API’s For API Testing",
+    "lesson17Topics": [
+      "How to Create Own APIs",
+      "JavaScript Object Notation (JSON)"
+    ],
+
+    "lesson18": "Validating Response by adding Test Scripts in POSTMAN",
+    "lesson18Topics": [
+      "Testing status codes",
+      "Testing headers",
+      "Testing cookies",
+      "Testing response time",
+      "Testing response body",
+      "Testing JSON Schema"
+    ],
+
+    "lesson19": "HTTP Request Validation in POSTMAN",
+    "lesson19Topics": [
+      "Testing status codes",
+      "Testing headers",
+      "Testing cookies",
+      "Testing response time",
+      "Testing response body",
+      "Testing JSON Schema"
+    ],
+
+    "lesson20": "Creating Environments in POSTMAN",
+
+    "lesson21Topics": [
+      "Benefits of adding Environment Variables",
+      "How to make use of environment variables"
+    ],
+
+    "lesson22": "API Testing Project",
+
+    "lesson22Topics": [
+      "API testing projects using POSTMAN and RestAPI’s",
+      "Creating JSON server for API testing",
+      "Creating API Test cases",
+      "Creating POSTMAN collection",
+      "Adding HTTPS requests",
+      "Executing Test cases in POSTMAN tool",
+      "Adding Validation and Assertions using JavaScript",
+      "Creating Variables and Environments in POSTMAN"
+    ],
+
+    "lesson21": "MySQL",
+
+    "lesson22": "Introduction to DBMS",
+    "lesson22Topics": ["Introduction to DBMS"],
+
+    "lesson23": "What is MySQL?",
+
+    "lesson23Topics": ["What is MySQL?"],
+
+    "lesson24": "Installation of MySQL",
+
+    "lesson24Topics": ["Installation of MySQL."],
+    "lesson25": "Overview of MySQL Workbench",
+
+    "lesson25Topics": ["Overview of MySQL Workbench"],
+    "lesson26": "Different Clauses in MySQL",
+
+    "lesson26Topics": [
+      "The SELECT Clause",
+      "The WHERE Clause",
+      "The AND, OR, and NOT Operators",
+      "The DISTINCT Operator",
+      "The IN Operator",
+      "The BETWEEN Operator",
+      "The LIKE Operator",
+      "The REGEXP Operator",
+      "The IS NULL Operator",
+      "The ORDER BY Clause",
+      "The LIMIT Clause",
+      "The GROUP BY Clause",
+      "The HAVING Clause"
+    ],
+    "lesson27": "Operators in MySQL",
+
+    "lesson27Topics": [
+      "Arithmetic Operators",
+      "Concatenation Operator",
+      "Comparison Operators",
+      "Relational Operator",
+      "Logical Operator",
+      "Special Operator"
+    ],
+    "lesson28": "TYPES OF JOINS",
+
+    "lesson28Topics": [
+      "INNER JOINS",
+      "JOINING ACROSS DATABASES",
+      "SELF JOINS",
+      "JOINING MULTIPLE TABLES",
+      "COMPOUND JOIN CONDITIONS",
+      "IMPLICIT JOIN SYNTAX",
+      "OUTER JOINS",
+      "OUTER JOIN BETWEEN MULTIPLE TABLES",
+      "SELF-OUTER JOINS",
+      "THE USING CLAUSE IN JOINS",
+      "NATURAL JOINS",
+      "CROSS JOINS",
+      "UNIONS"
+    ],
+    "lesson29": "SUB-QUERY",
+
+    "lesson29Topics": ["SUB-QUERY"],
+    "lesson30": "DATA DEFINITION LANGUAGE (DDL)",
+
+    "lesson30Topics": ["CREATE", "RENAME", "ALTER", "TRUNCATE", "DROP"],
+    "lesson31": "Data Manipulation Language (DML)",
+
+    "lesson31Topics": ["INSERT", "UPDATE", "DELETE"],
+    "lesson32": "Transaction Control Language (TCL)",
+
+    "lesson34Topics": ["COMMIT", "ROLLBACK", "SAVEPOINT"],
+    "lesson35": "Data Control Language (DCL)",
+
+    "lesson35Topics": ["GRANT", "REVOKE"],
+    "lesson36": "SQL Object",
+
+    "lesson36Topics": [
+      "TABLES",
+      "VIEWS",
+      "STORED PROCEDURES",
+      "FUNCTIONS",
+      "TRIGGERS"
+    ],
+
+    "lesson37": "Programming Language (Python or Java)",
+
+    "lesson37Topics": [
+      "Introduction to Python/Java Programming",
+      "Installation & Environment Settings",
+      "Python/Java Basics",
+      "Range/Arrays & Arrays List",
+      "Condition & Looping",
+      "Unpacking",
+      "Comprehensions / Data Conversion Function",
+      "Functions",
+      "Sorting",
+      "Object-Oriented Programming (Classes & objects)",
+      "Decorators / Access Modifiers",
+      "Regular Expression / Java Collection",
+      "Exception Handling",
+      "Container Objects"
+    ],
+
+    "lesson38": "Selenium WebDriver (Python & Java)",
+
+    "lesson38Topics": [
+      "Introduction to Automation",
+      "Introduction to Selenium",
+      "Installation of Selenium & Setting up the Environment",
+      "Browser-Related Operations",
+      "HTML Basics",
+      "Identification of Elements",
+      "Browser Navigation",
+      "Locators",
+      "Finding Elements",
+      "Finding Multiple Elements",
+      "Select Class",
+      "Selenium Synchronization",
+      "Handling Windows / Selenium Action Class (Mouse actions)",
+      "Selenium Screenshots",
+      "Selenium Common Exceptions"
+    ],
+
+    "lesson39": "Hybrid Framework Design Using  Python / Java Selenium",
+
+    "lesson39Topics": [
+      "What is Pytest Framework / TestNG",
+      "Framework Structure",
+      "Page Object Model (POM)",
+      "Folder Structure for Hybrid Framework Design",
+      "Automation Test Cases",
+      "Automation Data Driven Test Cases from Excel",
+      "Generating HTML Reports & Test Logs",
+      "Generating Reports and Keeping Record of Failed Tasks",
+      "Hybrid Framework Design (End to End Project)"
+    ]
+  },
+
+  {
+    "id": 19,
+    "logo": "ml-data-visualization-r-programming-cover.jpg",
+    "courseTitle": "Machine Learning and Data Visualization with R Programming",
+    "category": "Data Science, AI & ML",
+    "instructor": "Esha Prakash",
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.8)",
+    "sessions": "10 Sessions",
+    "hours": "20 hours",
+    "weeks": "3 weeks",
+    "seats": "80",
+    "joined": "46",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This Master Program is designed to make you an Expert Data Science & Business Analytics Specialist with extensive knowledge of Python Programming, Machine Learning & Deep Learning Algorithms, Data Visualization, Data Science, NLP, Generative AI, BI Tools & Business Analytics.",
+    "coursePara1": "If you have been considering getting into R programming in Data Science & Machine Learning, now is the time to start. Data science & Machine Learning jobs are becoming increasingly in demand as big data and technology industries grow. As you must be curious about what this field is all about.",
+    "coursePara2": "Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.",
+    "coursePara3": "On the other hand, Machine learning analyzes and examines large chunks of data automatically. It automates the data analysis process and makes predictions in real time without any human involvement. You can further build and train the data model to make real-time predictions.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a Machine Learning Engineer, Data Scientist, R developer,Human-Centered Machine Learning Designer, Data Analyst and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Data Scientist and a Machine Learning Engineer.",
+      "It will also make you a potential R programmer.",
+      "At the end of this course, you will have a solid understanding of R Programming, Data visualization using R, and concepts used for Data Science & Machine Learning Algorithms on real projects.",
+      "Complete understanding of two different types of Machine Learning Algorithms with practical demonstration.",
+      "You will also understand how to manipulate big data sets with the help of GGplot2.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in R programming, Data Science, Business Analysis, and the Machine Learning field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ]
+  },
+  {
+    "id": 12,
+    "logo": "comprehensive-data-science-ai-master-program-cover.jpg",
+    "courseTitle": "Comprehensive Data Science and AI - Master Program",
+    "category": "Data Science, AI & ML",
+    "instructor": "Esha Prakash",
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.8)",
+    "sessions": "128 Sessions",
+    "hours": "255 hours",
+    "weeks": "36 weeks",
+    "seats": "80",
+    "joined": "55",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This Master Program is designed to make you an Expert Data Science & Business Analytics Specialist with extensive knowledge of Python Programming, Machine Learning & Deep Learning Algorithms, Data Visualization, Data Science, NLP, Generative AI, BI Tools & Business Analytics.",
+    "coursePara1": "If you have been considering getting into Data Science & Machine Learning, now is the time to start. Data science & Machine Learning jobs are becoming increasingly in demand as big data and technology industries grow. As you must be curious about what this field is all about.",
+    "coursePara2": "Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.",
+    "coursePara3": "On the other hand, Machine learning analyzes and examines large chunks of data automatically. It automates the data analysis process and makes predictions in real time without any human involvement. You can further build and train the data model to make real-time predictions.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a Machine Learning Engineer, Data Scientist, Python Developer, R developer, Human-Centered Machine Learning Designer, Tableau expert, Business Analyst, NLP expert, Deep Learning engineering and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Data Scientist and a Machine Learning Engineer.",
+      "At the end of this course, you will have a solid understanding of Python Programming, R Programming, Data visualization using R & Tableau, and concepts used for Data Science & Machine Learning Algorithms on real projects.",
+      "Complete understanding of different types of Machine Learning Algorithms with practical demonstration.",
+      "You will also understand how to manipulate big data sets with the help of NumPy & Pandas.",
+      "Complete understanding of Deep Learning, Natural Language Processing, and Generative AI.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Data Science & Machine Learning field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ]
+  },
+  {
+    "id": 7,
+    "logo": "data-analysis-bi-big-data-engineering-cover.jpg",
+    "courseTitle": "Data analysis with BI & Big Data Engineering Master Program",
+    "category": "Business Intelligence",
+    "instructor": "Esha Prakash",
+    "catcls": ["cat-three"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.8)",
+    "sessions": "55 Sessions",
+    "hours": "110 hours",
+    "weeks": "15 weeks",
+    "seats": "80",
+    "joined": "49",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This Master Program is crafted to make you an expert in Python and Excel visualizations, data analytics with Power BI and Tableau, database management, and Big Data Engineering using Hadoop, Apache Spark, and Databricks.",
+    "coursePara1": "If you have been considering getting into Data Analytics, now is the time to start. Business Analyst jobs are becoming increasingly in demand as big data and technology industries grow.",
+    "coursePara2": "As you must be curious about what this field is all about. Business analysts identify business areas that can be improved to increase efficiency and strengthen business processes.",
+    "coursePara3": "They often work closely with others throughout the business hierarchy to communicate their findings and help implement changes.",
+    "coursePara4": "With a background in BI & Big Data, you can get a high-paying job as a powerBI Engineer, Data visualization expert, Business Intelligence Developer, Tableau Developer, Data Analyst, Big Data Engineer, Spark Developer and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Data Analyst.",
+      "At the end of this course, you will have a solid understanding of Tableau, PowerBI, and Excel concepts used for Business Intelligence & Data Visualization on real projects.",
+      "Complete understanding of Data visualization using Matplotlib, Seaborn, and Tableau.",
+      "Comprehensive understanding of SQL, Linux, Hadoop, and Spark.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in Data Analytics, Big Data, or Business Intelligence field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ]
+  },
+  {
+    "id": 21,
+    "logo": "machine-learning-data-science-python-cover.jpg",
+    "courseTitle": "Machine Learning And Data Science With Python",
+    "category": "Data Science, AI & ML",
+    "instructor": "Esha Prakash",
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "expert",
+    "rating": "(4.9)",
+    "sessions": "48 Sessions",
+    "hours": "95 hours",
+    "weeks": "12 weeks",
+    "seats": "80",
+    "joined": "58",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This course is tailored to make you a highly skilled Data Science Engineer with extensive knowledge of Python Programming, Data Visualization and ML Algorithms.",
+    "coursePara1": "If you have been considering getting into Machine Learning & Data Science, now is the time to start. Data science and Machine Learning jobs are becoming increasingly in demand as big data and technology industries grow. You must be curious about what this field is all about. Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data. On the other hand, Machine Learning analyzes and examines large chunks of data automatically. It automates the data analysis process and makes predictions in real time without any human involvement. You can further build and train data models to make real-time predictions.",
+    "coursePara2": "With a background in machine learning, you can get a high-paying job as a Machine Learning Engineer, Data Scientist, Python Developer, Human-Centered Machine Learning Designer, and various other profiles.",
+    "coursePara3": "Join our data science course to gain comprehensive knowledge and practical skills in this exciting field. Our data science online course offers flexibility and convenience, allowing you to learn at your own pace from anywhere in the world. We provide some of the best data science courses available, designed to cater to learners of all levels.",
+    "coursePara4": "Validate your expertise and boost your job prospects with our data science certification course. Our data science certificate online ensures you are well-prepared for real-world applications and industry demands.",
+    "coursePara5": "Dive into our machine learning course to master the concepts and techniques needed for a successful career. Additionally, our artificial intelligence course covers essential AI principles and practices, preparing you for the future of technology.",
+    "coursePara6": "Enroll in our machine learning certification program to enhance your credentials and stand out in the competitive job market. Our courses are meticulously crafted to equip you with sought-after skills and knowledge, empowering you to advance your career.",
+    "coursePara7": "Don't miss the opportunity to join the ranks of high-paying professionals in Machine Learning and Data Science. Start your journey today with our data science course and machine learning course.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Data Scientist and a Machine Learning Engineer.",
+      "At the end of this course, you will have a solid understanding of Python Programming, Data visualization using Python libraries, and concepts used for Data Science & Machine Learning Algorithms on real projects.",
+      "Complete understanding of different types of Machine Learning Algorithms with practical demonstration.",
+      "You will also understand how to manipulate big data sets with the help of NumPy & Pandas.",
+      "Complete understanding of Data visualization using Matplotlib & Seaborn.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in the Data Science & Machine Learning field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ]
+  },
+  {
+    "id": 22,
+    "logo": "advanced-data-science-ml-masterclass-cover.jpg",
+    "courseTitle": "Advanced Data Science and Machine Learning Masterclass",
+    "category": "Data Science, AI & ML",
+    "instructor": "Esha Prakash",
+    "catcls": ["cat-two"],
+    "language": "English",
+    "difficulty": "intermediate",
+    "rating": "(4.9)",
+    "sessions": "100 Sessions",
+    "hours": "200 hours",
+    "weeks": "30 weeks",
+    "seats": "80",
+    "joined": "52",
+    "instructorPic": "esha-prakash.png",
+    "instructorName": "Esha Prakash",
+    "instructorId": 4,
+    "shortDescription": "This Master Program is designed to make you an Expert Data Science & Business Analytics Specialist with extensive knowledge of Python Programming, Machine Learning Algorithms, Data Visualization, Data Science, BI Tools & Business Analytics.",
+    "coursePara1": "If you have been considering getting into Data Science & Machine Learning, now is the time to start. Data science & Machine Learning jobs are becoming increasingly in demand as big data and technology industries grow. As you must be curious about what this field is all about.",
+    "coursePara2": "Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.",
+    "coursePara3": "On the other hand, Machine learning analyzes and examines large chunks of data automatically. It automates the data analysis process and makes predictions in real time without any human involvement. You can further build and train the data model to make real-time predictions.",
+    "coursePara4": "With a background in machine learning, you can get a high-paying job as a Machine Learning Engineer, Data Scientist, Python Developer, R developer, SQL Developer, Human-Centered Machine Learning Designer, Tableau expert, Business Analyst and various other profiles.",
+    "keyPoint1": [
+      "This Course will make you a Proficient Data Scientist and a Machine Learning Engineer.",
+      "It will also make you a potential Business Analyst with Tableau, Excel, and PowerBI skills.",
+      "You can also become a potential SQL developer.",
+      "At the end of this course, you will have a solid understanding of Python Programming, R Programming, Data visualization using R & Tableau, and concepts used for Data Science & Machine Learning Algorithms on real projects.",
+      "Complete understanding of different types of Machine Learning Algorithms with practical demonstration.",
+      "You will also understand how to manipulate big data sets with the help of NumPy & Pandas.",
+      "Complete understanding of Data visualization using Matplotlib & Seaborn.",
+      "Practical exposure to various projects to hone hands-on expertise."
+    ],
+
+    "keyPoint2": [
+      "This course is structured for any undergraduate or job seeker who wants to start their career in Data Science, Business Analysis, and the Machine Learning field.",
+      "Any working professional with experience in the non-IT domain and looking to enter the IT field.",
+      "Any fresh graduate or postgraduate looking to secure a career in the IT domain."
+    ]
+  }
+]
