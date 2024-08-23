@@ -1,0 +1,444 @@
+/* site responsive styles */
+/* query sm (576) styles */
+/* query md (768) styles */
+/* query lg (992) styles */
+/* query lgwd (1025) styles */
+/* query xl (1230) styles */
+/* query xlwd (1330) styles */
+/* query xxl (1920) styles */
+/* query others (down & between) styles */
+@media (max-width: 1640px) {
+    .inner-content-box {
+        padding: 77px 30px 0 100px;
+    }
+    .analyst-news-box .analyst-box .starred-tab li {
+        grid-template-columns: 1fr 1fr 12fr;
+    }
+    .news-smaller-box .analyst-box .starred-tab li {
+        grid-template-columns: 1fr 1fr 6fr !important;
+    }
+    .thumbnail-content p {
+        font-size: 14px;
+    }
+    .thumbnail-box {
+        max-width: 160px;
+    }
+}
+@media (max-width: 1496px) {
+    .analyst-box-subheading {
+        margin-bottom: 14px;
+    }
+    .dashmanu> li> a {
+        padding: 0 5px !important;
+    }
+}
+@media (max-width: 1440px) {
+    .inner-content-boxinner-content-box {
+        padding: 77px 0 0 100px;
+    }
+    .left-sidebar {
+        max-width: 320px;
+    }
+    .sidebar-menu .navbar {
+        padding-left: 18px;
+    }
+    .analyst-box, .datasets-box, .recent-presentation {
+        padding: 25px 34px;
+    }
+    .datasets-box {
+        padding: 25px 34px  !important;
+        height: 468px;
+        margin-left: 0 !important;
+    }
+    .sub-report-section, .recent-presentation {
+        padding: 25px;
+    }
+    .tab-listbox> li {
+        padding: 5px 40px 5px 20px;
+    }
+    .fullreport-view {
+        gap: 10px;
+    }
+    .all-report-title p:nth-child(1) {
+        padding-left: 28px;
+    }
+    .thumbnail-content p {
+        font-size: 12px;
+    }
+
+    .report-nav> .Selected-multi {
+        padding: 2px;
+        margin-bottom: 47px;
+    }
+}
+@media (max-width: 1329px) {
+    .dashmanu> li> a {
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+    .inner-content-box {
+        padding: 130px 0 0 20px;
+    }
+    .tab-listbox .report-type {
+        padding: 13px 10px 13px 10px;
+    }
+    .all-report-title p:nth-child(2), 
+    .all-report-title p:nth-child(3) {
+        padding-left: 0;
+    }
+    .all-report-title {
+        padding: 10px 10px 0px 10px;
+    }
+    .all-report-box, .all-report-title {
+        grid-template-columns: 1fr 1fr 2fr;
+        gap: 10px;
+    }
+    .news-smaller-box .analyst-box .starred-tab li {
+        grid-template-columns: 1fr 1fr 12fr !important;
+    }
+    .joint-session {
+        padding: 60px 30px !important;
+    }
+}
+@media (max-width: 1230px) {
+    .mainNavigation .nav-item + .nav-item {
+        margin-left: 0;
+    }
+    .inner-content-box {
+        padding: 130px 0 0 50px;
+    }
+    .left-sidebar {
+        max-width: 300px;
+    }
+    .sub-report-section  .all-report-title ~ .tab-listbox> .report-type> .all-report-box> .tab-content> p:nth-child(1) {
+        padding-right: 15px;
+    } 
+    .thumbnail-content p {
+        font-size: 13px;
+    }
+    .report-nav> .Selected-multi {
+        margin-bottom: 30px;
+    }
+    .siderbar-nav> li> a {
+        font-size: 16px;
+    }
+    .sub-report-section .accordion .card {
+        margin-right: 0;
+    }
+    .datasets-container-box .chart-graph canvas {
+        height: auto !important;
+    }
+}
+@media (max-width: 1150px) {
+    .dashboard-section .dashmanu> li a {
+        font-size: 12px !important;
+    }
+    .dashboard-section .dashmanu {
+        padding-left: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .inner-content-box {
+        padding: 100px 0 0 0px;
+    }
+   .inner-content-box> div> div:nth-child(3)> div:last-child {
+        margin-bottom: 80px;
+   }
+   .dashboard-section .navbar .navbar-brand {
+    padding-left: 0px;
+    }
+    .all-report-box, .all-report-title {
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    .fullreport-view {
+        gap: 5px;
+    }
+    .report-nav> .Selected-multi {
+        margin-bottom: 24px;
+    }
+    .thumbnail-content p {
+        font-size: 15px;
+    }
+    header .navbar-nav {
+        padding: 0 !important;
+        gap: 18px;
+    }
+    .dashboard-section .dashmanu {
+        padding: 40px 0 !important;
+    }
+    .dashboard-section .dashmanu> li a {
+        font-size: 16px !important;
+    }
+    .desktopDropOnHover> ul {
+        background-color: white;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pageMainNavCollapse {
+        height: auto !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        display: block !important;
+        -webkit-transition: height 0.3s ease, -webkit-transform 0.3s ease !important;
+        transition: height 0.3s ease, -webkit-transform 0.3s ease !important;
+        transition: height 0.3s ease, transform 0.3s ease !important;
+        transition: height 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease !important;
+    }
+}
+@media (max-width: 767px) {
+    .containerFluidSmall {
+        max-width: 100%;
+    }
+    .upcoming-eventbox li .event-datebox {
+        border-right: none;
+    }
+    .event-datebox p {
+        flex-direction: row !important;
+        gap: 3px;
+    }
+    .sub-report-section> div:nth-child(1) {
+        padding: 0 20px 20px 20px;
+    }
+    .analyst-news-box .analyst-box {
+        padding: 30px!important;
+    }
+    .analyst-news-box .analyst-box .starred-tab li {
+        grid-template-columns: 1fr 1fr 6fr !important;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .analyst-news-box .analyst-box h3 {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+    .analyst-news-box .bg-transparent div:nth-child(2) p {
+        font-size: 15px;
+    }
+    .thumbnail-box {
+        display: flex;
+        flex-direction: row;
+        padding: 0 7px;
+        max-width: 100%;
+        gap: 8px;
+        height: auto !important;
+    }
+    .full-report-section> .row {
+        flex-direction: column-reverse;
+    }
+    .export-file {
+        margin-top: 25px;
+        font-size: 13px;
+        padding: 8px;
+    }
+    .image-checkbox i {
+        padding: 4px;
+        font-size: 13px;
+    }
+    .thumbnail-box {
+        overflow-x: auto;
+        overflow-y: unset;
+        width: 607px;
+        padding-bottom: 13px;
+    }
+    .image-checkbox {
+        width: 106px;
+    }
+    .all-report-title ~ .tab-listbox> li .tab-content> p {
+        font-size: 12px;
+    }
+    .tab-listbox> li .years-box {
+        font-size: 13px;
+    }
+    .fullreport-view li a {
+        font-size: 11px;
+    }
+    .all-report-title p:nth-child(1) {
+        padding-left: 24px;
+    }
+    .all-report-title p, .seminar-titel, .seminar-titel-last,  .seminar-titel-date, .seminar-titel-date,
+    .sub-report-section .accordion .card .card-header button {
+        font-size: 14px;
+    }
+    .card>.card-header button[aria-expanded="false"]:after,
+    .card>.card-header button[aria-expanded="true"]:after {
+        right: 20px;
+    }
+
+    .cmc-seminar> .row, .cmc-seminar-content> .row {
+        display: grid;
+        grid-template-columns: 240px 120px 165px 120px;
+        width: 100%;
+    }
+
+    .card-paddingbox {
+        overflow: auto;
+    }
+    .card-paddingbox> .card-body {
+        width: 590px;
+    }
+
+    .sub-report-section .accordion .card .card-header button {
+        font-size: 14px;
+
+    }
+
+    .sub-report-section .accordion .card .card-header button {
+        padding: 17px 20px;
+    }
+    .sub-report-section .accordion .card .card-paddingbox {
+        padding: 20px;
+    }
+    .modify-ac-box> .row> div:nth-child(1)> .nav {
+        flex-direction: row !important;
+        margin-bottom: 40px;
+    }
+    .modify-ac-box> .row> div:nth-child(2) {
+       border: none;
+    }
+    .notification-ac-box .upcoming-eventbox li .all-day-event p {
+        max-width: 100%;
+    }
+    .heading-dashboard .btn-group> .dropdown-menu-right {
+        -webkit-box-shadow: 0px 0px 36px 11px rgba(0,0,0,0.11);
+        -moz-box-shadow: 0px 0px 36px 11px rgba(0,0,0,0.11);
+        box-shadow: 0px 0px 36px 11px rgba(0,0,0,0.11);
+    }
+    .notification-ac-box .top-head-dropdown .dropdown-menu {
+        width: 320px;
+        margin-left: 40px;
+    }
+    .sub-report-section> div> div> .dropdown> button {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .datatable-box> div> div> .report-download-boxes select {
+        padding: 10px 40px 10px 15px;
+        font-size: 12px;
+    }
+    .report-type .tab-content .accordion {
+        padding: 0 0 40px 0;
+    }
+}
+@media (max-width: 640px) {
+    .notification-li-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+    .trash-box-time {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 6px;
+
+    }
+}
+@media (max-width: 575px) {
+    .bookingFormWrap .filterHolder {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        row-gap: 20px;
+    }
+    .left-sidebar {
+        display: none;
+    }
+    .analyst-news-box .analyst-box .starred-tab li span {
+        font-size: 16px;
+    }
+    .fullreport-view li a {
+        padding: 5px 8px !important;
+        font-size: 11px;
+    }
+    .all-report-box, .all-report-title {
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+    .datatables-reps .datatable-box div:nth-child(1) {
+        flex-direction: column;
+    }
+    .datatables-reps .datatable-box div:nth-child(1) .backbtn-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 10px !important;
+    }
+    .datatables-reps .datatable-box div:nth-child(1)> div {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .dashboard-section .navbar .navbar-brand {
+        padding-left: 0;
+    }
+    .dashboard-section .navbar-brand img {
+        width: 130px;
+    }
+    .page-content-section .inner-content-box> div,
+    .recent-presentation .recent-heading-content {
+        padding: 0;
+    }
+    .page-content-section .inner-content-box> div .heading-dashboard a img {
+        width: 40px;
+    }
+    .sub-report-section, .analyst-box, .recent-presentation {
+        padding: 25px 15px !important;
+    }
+    .datasets-box  {
+        height: auto;
+        padding: 25px 15px !important;
+
+    }
+
+    .recent-presentation .tab-listbox li, .sub-report-section .tab-listbox li {
+        padding: 10px;
+    }
+
+    .tab-listbox> li .tab-content> p {
+        padding-right: 15px;
+    }
+    .tab-listbox li .years-box {
+        font-size: 14px;
+    }
+    .sub-report-title {
+        padding: 0px 10px 20px;
+    }
+    .sub-report-section> div:nth-child(1) {
+        padding: 0 0 15px;
+    }
+    .sub-report-section> div:nth-child(1)> h3, 
+    .analyst-box> div:nth-child(1)> h3, 
+    .datasets-box h3, 
+    .recent-presentation h3 {
+        font-size: 20px;
+    }
+    .analyst-news-box .analyst-box {
+        padding: 22px!important;
+    }
+    .all-report-box, .all-report-title {
+        grid-template-columns: 80px 1fr 2fr;
+    }
+    .full-report-section .report-nav .report-searchbox i {
+        font-size: 12px;
+    }
+    .full-report-section .report-nav .report-searchbox input {
+        max-width: 152px;
+        padding: 5px 50px 5px 12px;
+        font-size: 12px;
+    }
+    .top-head-dropdown .dropdown-menu {
+        width: 248px !important;
+        margin-left: 26px !important;
+    }
+}
+
+
