@@ -1979,3 +1979,10 @@ body .phStickyWrap {
 .ibColumn {
   min-height: 0%;
 }
+
+/******* Three cards section ********/
+.three-cards {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+}
