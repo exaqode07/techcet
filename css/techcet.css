@@ -1177,7 +1177,6 @@ body .phStickyWrap {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  float: right;
   transition: transform 0.25s linear;
   -webkit-transition: -webkit-transform 0.25s linear;
 }
