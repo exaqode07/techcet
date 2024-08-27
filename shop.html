@@ -259,73 +259,427 @@
 				<div class="alignHolder d-flex w-100 align-items-center">
 					<div class="align w-100 position-relative">
 						<div class="container">
-							<h1 class="text-white mb-2">My Account</h1>
+							<h1 class="text-white mb-2">Shop</h1>
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb breadcrWhite rounded-0 border-0 p-0 fontAlter mb-0">
 									<li class="breadcrumb-item"><a href="home.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="javascript:void(0);">Pages</a></li>
-									<li class="breadcrumb-item active" aria-current="page">My Account</li>
+									<li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Shop Product</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</header>
-			<section class="login_section py-8 py-md-15 py-xl-22 fontAlter">
+			<article class="ItemfullBlock pt-7 pb-7 pt-md-10 pb-md-9 pt-lg-14 pb-lg-13 pt-xl-22 pb-xl-19">
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-6 col-xl-4">
-							<ul class="nav nav-tabs tabset justify-content-center mb-10" id="myTab" role="tablist">
-								<li class="nav-item">
-									<a class="nav-link tablink active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link tablink" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Register</a>
-								</li>
-							</ul>
-							<div class="tab-content" id="loginTabContent">
-								<div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-									<form action="#">
-										<div class="form-group">
-											<label for="email">Username or Email <span class="text-danger">*</span></label>
-											<input type="email" id="email" class="form-control">
+					<div class="row">
+						<div class="col-12 col-md-4 col-lg-3 mb-6">
+							<div class="mr-md-n3 mr-lg-n5">
+								<aside class="sidebar">
+									<section class="widget widgetSearch mb-6 mb-lg-10">
+										<form action="#" class="searchForm">
+											<div class="input-group">
+												<input type="search" class="form-control" placeholder="Search Here&hellip;">
+												<div class="input-group-append">
+													<button class="btn btnTheme btnNoOver d-flex align-items-center justify-content-center" type="button">
+														<i class="icomoon-search"><span class="sr-only">search</span></i>
+													</button>
+												</div>
+											</div>
+										</form>
+									</section>
+									<nav class="widget widgetArchiveList mb-6 mb-lg-10">
+										<h3 class="fwMedium mb-5">Product Category</h3>
+										<ul class="list-unstyled pl-0">
+											<li>
+												<a href="javascript:void(0);">Hoodies</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Clothing</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Accessories</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Decor</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Tshirts</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Uncategorized</a>
+											</li>
+										</ul>
+									</nav>
+									<div class="widget widgetPriceFilter mb-6 mb-lg-10">
+										<h3 class="fwMedium mb-5">Pricing Filter</h3>
+										<!-- slider range -->
+										<div id="slider-range"></div>
+										<input type="hidden" id="amount1" name="amount1">
+										<input type="hidden" id="amount2" name="amount2">
+										<!-- getResultsWrap -->
+										<div class="getResultsWrap d-flex align-items-center justify-content-between">
+											<button type="button" class="btn btnGreyAlter btn-sm font-weight-bold text-capitalize position-relative border-0 p-0" data-hover="Filter">
+												<span class="d-block btnText">Filter</span>
+											</button>
+											<p id="amount" class="mb-0 fwSemiBold text-uppercase"></p>
 										</div>
-										<div class="form-group">
-											<label for="pass">Password <span class="text-danger">*</span></label>
-											<input type="password" id="pass" class="form-control">
+									</div>
+									<nav class="widget fpListWidget mb-6 mb-lg-10">
+										<h3 class="fwMedium mb-5">Featured Products</h3>
+										<ul class="list-unstyled pl-0 mb-0">
+											<li>
+												<div class="alignleft imgWrap text-center">
+													<a href="shopSingleProduct.html">
+														<img src="http://placehold.it/80x80" alt="image description">
+													</a>
+												</div>
+												<div class="descrWrap pt-1">
+													<h4 class="fwMedium mb-2">
+														<a href="shopSingleProduct.html">Woo Grey T-Shirt</a>
+													</h4>
+													<h4 class="prPrice fwMedium">£9.99</h4>
+												</div>
+											</li>
+											<li>
+												<div class="alignleft imgWrap text-center">
+													<a href="shopSingleProduct.html">
+														<img src="http://placehold.it/80x80" alt="image description">
+													</a>
+												</div>
+												<div class="descrWrap pt-1">
+													<h4 class="fwMedium mb-2">
+														<a href="shopSingleProduct.html">Woo Grey T-Shirt</a>
+													</h4>
+													<h4 class="prPrice fwMedium">£14.99</h4>
+												</div>
+											</li>
+											<li>
+												<div class="alignleft imgWrap text-center">
+													<a href="shopSingleProduct.html">
+														<img src="http://placehold.it/80x80" alt="image description">
+													</a>
+												</div>
+												<div class="descrWrap pt-1">
+													<h4 class="fwMedium mb-2">
+														<a href="shopSingleProduct.html">Woo Grey T-Shirt</a>
+													</h4>
+													<h4 class="prPrice fwMedium">£19.99</h4>
+												</div>
+											</li>
+										</ul>
+									</nav>
+									<section class="widget widgetTags mb-6 mb-lg-10">
+										<h3 class="fwMedium mb-5 pl-1">Product Tags</h3>
+										<ul class="list-unstyled pl-0 d-flex flex-wrap fontAlter">
+											<li>
+												<a href="javascript:void(0);">City</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Developement</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Road</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Design</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Smart City</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">Goverment</a>
+											</li>
+										</ul>
+									</section>
+								</aside>
+							</div>
+						</div>
+						<div class="col-12 col-md-8 col-lg-9">
+							<div class="pl-md-5 pl-xl-15 fontAlter">
+								<header class="ctSorterWrapHeader">
+									<div class="row align-items-md-center">
+										<div class="col-12 col-md-5 text-center text-md-left order-2 order-md-1">
+											<p><strong class="fwMedium">Showing 1–9 of 13 results</strong></p>
 										</div>
-										<div class="form-check mb-5 p-0">
-											<span class="customCheckboxLabel">
-												<input class="form-check-input fakeInput" type="checkbox" id="save-password">
-												<label class="form-check-label cuFakeLabel" for="save-password">Remember Me</label>
-											</span>
-											<a href="javascript:void(0);" class="float-right text-body txtLink">Lost your password?</a>
+										<div class="col-12 col-md-7 d-md-flex justify-content-md-end order-1 order-md-2">
+											<!-- dsSortDropdown -->
+											<div class="dropdown dsSortDropdown mb-2 mb-sm-0">
+												<a class="dropdown-toggle" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Default Sorting</a>
+												<!-- dropdown menu -->
+												<div class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
+													<a class="dropdown-item" href="javascript:void(0);">Action</a>
+													<a class="dropdown-item" href="javascript:void(0);">Another action</a>
+													<a class="dropdown-item" href="javascript:void(0);">Something else here</a>
+												</div>
+											</div>
 										</div>
-										<button type="submit" class="btn btnTheme fwMedium w-100 d-block text-capitalize position-relative border-0 p-0" data-hover="Login">
-											<span class="d-block btnText">Login</span>
-										</button>
-									</form>
+									</div>
+								</header>
+								<div class="row">
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative" data-featured-tag="Sale!">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Ninja Woo Poster</a></h5>
+											<h4 class="fwMedium prPrice">£19.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Woo Grey T-Shirt</a></h5>
+											<h4 class="fwMedium prPrice">£9.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Modern Grey Hoodies</a></h5>
+											<h4 class="fwMedium prPrice">£14.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Shawl-Black T-Shirt</a></h5>
+											<h4 class="fwMedium prPrice">£19.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative" data-featured-tag="Sale!">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Modern-Black Hoodies</a></h5>
+											<h4 class="fwMedium prPrice">£29.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Fit Blazer Hoodies</a></h5>
+											<h4 class="fwMedium prPrice">£14.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative" data-featured-tag="Sale!">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Shawl-White T-Shirt</a></h5>
+											<h4 class="fwMedium prPrice">£25.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Modern-Black Hoodies</a></h5>
+											<h4 class="fwMedium prPrice">£19.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative" data-featured-tag="Sale!">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Black Logo T-Shirt</a></h5>
+											<h4 class="fwMedium prPrice">£20.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Woo Logo Hoody</a></h5>
+											<h4 class="fwMedium prPrice">£15.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Grey Woo Poster</a></h5>
+											<h4 class="fwMedium prPrice">£13.99</h4>
+										</article>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<!-- proItemCol -->
+										<article class="proItemCol hasOver text-center position-relative">
+											<div class="aligncenter imageHolder position-relative d-flex">
+												<span class="d-flex align-items-center wrap justify-content-center w-100">
+													<span class="d-block w-100">
+														<img src="http://placehold.it/272x272" class="w-100" alt="image description">
+													</span>
+												</span>
+												<div class="btnWrap position-absolute">
+													<!-- proAtcBtn -->
+													<a href="cart.html" class="btn btnTheme proAtcBtn fwMedium btnMinSm text-capitalize position-relative border-0 p-0 mt-6" data-hover="Add to Cart">
+														<span class="d-block btnText">Add to Cart</span>
+													</a>
+												</div>
+											</div>
+											<h5 class="text-capitalize fwMedium prName mb-2"><a href="shopSingleProduct.html">Music Album-#2</a></h5>
+											<h4 class="fwMedium prPrice">£14.99</h4>
+										</article>
+									</div>
 								</div>
-								<div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-									<form action="#">
-										<div class="form-group">
-											<label for="email">Email Address <span class="text-danger">*</span></label>
-											<input type="email" id="emails" class="form-control">
-										</div>
-										<div class="form-group">
-											<label for="pass">Password <span class="text-danger">*</span></label>
-											<input type="password" id="passw" class="form-control">
-										</div>
-										<button type="submit" class="btn btnTheme fwMedium w-100 d-block text-capitalize position-relative border-0 mt-5 p-0" data-hover="Login">
-											<span class="d-block btnText">Login</span>
-										</button>
-									</form>
-								</div>
+								<nav aria-label="Page navigation">
+									<ul class="pagination justify-content-center pt-2 mb-0 pb-0">
+										<li class="page-item disabled">
+											<a class="page-link" href="javascript:void(0);">Previous</a>
+										</li>
+										<li class="page-item active" aria-current="page">
+											<a class="page-link" href="javascript:void(0);">1 <span class="sr-only">(current)</span></a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="javascript:void(0);">2</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="javascript:void(0);">Next <i class="fas fa-chevron-right icn" aria-hidden="true"><span class="sr-only">icon</span></i></a>
+										</li>
+									</ul>
+								</nav>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</article>
 		</main>
 		<!-- ftAreaWrap -->
 		<div class="ftAreaWrap position-relative bg-gDark fontAlter">

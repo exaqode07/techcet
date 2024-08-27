@@ -259,73 +259,212 @@
 				<div class="alignHolder d-flex w-100 align-items-center">
 					<div class="align w-100 position-relative">
 						<div class="container">
-							<h1 class="text-white mb-2">My Account</h1>
+							<h1 class="text-white mb-2">Cart</h1>
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb breadcrWhite rounded-0 border-0 p-0 fontAlter mb-0">
 									<li class="breadcrumb-item"><a href="home.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="javascript:void(0);">Pages</a></li>
-									<li class="breadcrumb-item active" aria-current="page">My Account</li>
+									<li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Cart</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</header>
-			<section class="login_section py-8 py-md-15 py-xl-22 fontAlter">
+			<article class="ItemfullBlock pt-7 pb-7 pt-md-10 pb-md-9 pt-lg-14 pb-lg-13 pt-xl-22 pb-xl-19">
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-6 col-xl-4">
-							<ul class="nav nav-tabs tabset justify-content-center mb-10" id="myTab" role="tablist">
-								<li class="nav-item">
-									<a class="nav-link tablink active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link tablink" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Register</a>
-								</li>
-							</ul>
-							<div class="tab-content" id="loginTabContent">
-								<div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-									<form action="#">
-										<div class="form-group">
-											<label for="email">Username or Email <span class="text-danger">*</span></label>
-											<input type="email" id="email" class="form-control">
+					<div class="cartTableWrap table-responsive mb-8 mb-md-12 mb-lg-16">
+						<table class="table cartTable mb-0 fontAlter">
+							<thead>
+								<tr>
+									<th class="col01">Product</th>
+									<th class="col02">Price</th>
+									<th class="col03">Quality</th>
+									<th class="col04">Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="product-cart-item">
+									<td class="cart-item-details">
+										<div class="product-meta-data d-flex align-items-center">
+											<img src="http://placehold.it/60x60" class="img-fluid mr-3" alt="image description">
+											<h6 class="h6 mb-0">Shawl-Black T-Shirt</h6>
 										</div>
-										<div class="form-group">
-											<label for="pass">Password <span class="text-danger">*</span></label>
-											<input type="password" id="pass" class="form-control">
+									</td>
+									<td class="product-subtotal">
+										<div class="product-price-amount">
+											<h6 class="h6 fwMedium mb-0"> £95.00</h6>
 										</div>
-										<div class="form-check mb-5 p-0">
-											<span class="customCheckboxLabel">
-												<input class="form-check-input fakeInput" type="checkbox" id="save-password">
-												<label class="form-check-label cuFakeLabel" for="save-password">Remember Me</label>
-											</span>
-											<a href="javascript:void(0);" class="float-right text-body txtLink">Lost your password?</a>
+									</td>
+									<td class="product-quantity">
+										<div class="quantity position-relative">
+											<input type="number" min="1" value="2">
 										</div>
-										<button type="submit" class="btn btnTheme fwMedium w-100 d-block text-capitalize position-relative border-0 p-0" data-hover="Login">
-											<span class="d-block btnText">Login</span>
-										</button>
-									</form>
-								</div>
-								<div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-									<form action="#">
-										<div class="form-group">
-											<label for="email">Email Address <span class="text-danger">*</span></label>
-											<input type="email" id="emails" class="form-control">
+									</td>
+									<td class="product-total">
+										<div class="product-price-amount">
+											<h6 class="h6 fwMedium mb-0"> £190.00</h6>
+											<a href="javascript:void(0);" class="remove-item fas fa-times"></a>
 										</div>
-										<div class="form-group">
-											<label for="pass">Password <span class="text-danger">*</span></label>
-											<input type="password" id="passw" class="form-control">
+									</td>
+								</tr>
+								<tr class="product-cart-item">
+									<td class="cart-item-details">
+										<div class="product-meta-data d-flex align-items-center">
+											<img src="http://placehold.it/60x60" class="img-fluid mr-3" alt="image description">
+											<h6 class="h6 mb-0">Blue Woo Poster</h6>
 										</div>
-										<button type="submit" class="btn btnTheme fwMedium w-100 d-block text-capitalize position-relative border-0 mt-5 p-0" data-hover="Login">
-											<span class="d-block btnText">Login</span>
-										</button>
-									</form>
-								</div>
-							</div>
+									</td>
+									<td class="product-subtotal">
+										<div class="product-price-amount">
+											<h6 class="h6 fwMedium mb-0"> £34.00</h6>
+										</div>
+									</td>
+									<td class="product-quantity">
+										<div class="quantity position-relative">
+											<input type="number" min="1" value="1">
+										</div>
+									</td>
+									<td class="product-total">
+										<div class="product-price-amount">
+											<h6 class="h6 fwMedium mb-0"> £34.00</h6>
+											<a href="javascript:void(0);" class="remove-item fas fa-times"></a>
+										</div>
+									</td>
+								</tr>
+								<tr class="product-cart-item">
+									<td class="cart-item-details">
+										<div class="product-meta-data d-flex align-items-center">
+											<img src="http://placehold.it/60x60" class="img-fluid mr-3" alt="image description">
+											<h6 class="h6 mb-0">Music Album-#2</h6>
+										</div>
+									</td>
+									<td class="product-subtotal">
+										<div class="product-price-amount">
+											<h6 class="h6 fwMedium mb-0"> £87.00</h6>
+										</div>
+									</td>
+									<td class="product-quantity">
+										<div class="quantity position-relative">
+											<input type="number" min="1" value="1">
+										</div>
+									</td>
+									<td class="product-total">
+										<div class="product-price-amount">
+											<h6 class="h6 fwMedium mb-0"> £87.00</h6>
+											<a href="javascript:void(0);" class="remove-item fas fa-times"></a>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="4">
+										<!-- coupenEnterWrap -->
+										<div class="coupenEnterWrap d-flex justify-content-between align-items-center">
+											<div class="wrap1 d-flex align-items-center">
+												<!-- coupenFormControl -->
+												<input type="text" class="form-control coupenFormControl" placeholder="Coupon Code">
+												<a href="javascript:void(0);" class="btn btn-outline-secondary fwMedium ml-3 ml-xl-6 text-capitalize position-relative border-0 p-0 flex-shrink-0" data-hover="Apply Coupon">
+													<span class="d-block btnText">Apply Coupon</span>
+												</a>
+											</div>
+											<button type="submit" class="btn btnTheme fwMedium btnMinSm text-capitalize position-relative border-0 p-0" data-hover="Update Cart">
+												<span class="d-block btnText">Update Cart</span>
+											</button>
+										</div>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-12 offset-md-4 col-md-8 offset-lg-6 col-lg-6">
+							<table class="table cartTotals mb-0 fontAlter">
+								<thead>
+									<tr>
+										<th colspan="2">Cart Totals</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="col01">Subtotal</td>
+										<td class="col02"><strong class="fwMedium price d-block">£34.00</strong></td>
+									</tr>
+									<tr>
+										<td class="col01">Shipping</td>
+										<td class="col02">
+											<!-- tdWrap -->
+											<div class="tdWrap">
+												<div class="fakeLabelWrap mb-2">
+													<span class="customRadioBtnLabel">
+														<input class="form-check-input fakeInput" type="radio" name="shipping-fee" id="shippingOption1" checked="" value="option1">
+														<label class="form-check-label cuFakeLabel" for="shippingOption1">Free Shipping</label>
+													</span>
+												</div>
+												<div class="fakeLabelWrap mb-3">
+													<span class="customRadioBtnLabel">
+														<input class="form-check-input fakeInput" type="radio" name="shipping-fee" id="shippingOption2" value="option2">
+														<label class="form-check-label cuFakeLabel" for="shippingOption2">Flat Rate: <span class="price">£10.00</span></label>
+													</span>
+												</div>
+												<strong class="d-block text-secondary mb-3">Calculate Shipping</strong>
+												<div class="coolSelectWrapper mb-2">
+													<!-- coolSelect -->
+													<select class="coolSelect form-control" id="shipping">
+														<option value="1" disabled="">Select Country</option>
+														<option value="2">United States</option>
+														<option value="3">China</option>
+														<option value="4" selected="">Germany</option>
+														<option value="5">United Kingdom (UK)</option>
+														<option value="6">Irland</option>
+														<option value="7">Scottland</option>
+													</select>
+												</div>
+												<div class="coolSelectWrapper mb-2">
+													<!-- coolSelect -->
+													<select class="coolSelect form-control" id="country">
+														<option value="1" disabled="" selected="">Select an option...</option>
+														<option value="2">United States</option>
+														<option value="3">China</option>
+														<option value="4" >Germany</option>
+														<option value="5">United Kingdom (UK)</option>
+														<option value="6">Irland</option>
+														<option value="7">Scottland</option>
+													</select>
+												</div>
+												<!-- formCol -->
+												<div class="formCol">
+													<!-- form-group -->
+													<label class="form-group d-block">
+														<input type="text" class="form-control d-block w-100" placeholder="Postcode/ZIP">
+													</label>
+												</div>
+												<a href="javascript:void(0);" class="btn btnGary fwMedium text-capitalize position-relative border-0 p-0" data-hover="Update Totals">
+													<span class="d-block btnText">Update Totals</span>
+												</a>
+											</div>
+										</td>
+									</tr>
+									<tr class="trTotal">
+										<td class="col01">Total</td>
+										<td class="col02"><strong class="fwMedium price d-block">£198.00</strong></td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2">
+											<button type="submit" class="btn btnTheme fwMedium w-100 d-block text-capitalize position-relative border-0 p-0" data-hover="Proceed to Checkout">
+												<span class="d-block btnText">Proceed to Checkout</span>
+											</button>
+										</td>
+									</tr>
+								</tfoot>
+							</table>
 						</div>
 					</div>
 				</div>
-			</section>
+			</article>
 		</main>
 		<!-- ftAreaWrap -->
 		<div class="ftAreaWrap position-relative bg-gDark fontAlter">
