@@ -1967,7 +1967,7 @@ body .phStickyWrap {
   margin-top: 0 !important;
 }
 
-/****** Home / Main Banner  *******/
+/****** Home - Main Banner  *******/
 .bannerFeaturesAsideBlock::before {
   content: none;
 }
@@ -1980,9 +1980,14 @@ body .phStickyWrap {
   min-height: 0%;
 }
 
-/******* Three cards section ********/
+/******* Home - Three cards section ********/
 .three-cards {
   padding-left: 50px;
   padding-right: 50px;
   height: 100%;
+}
+
+/******** Consulting - breadcrumb section *********/
+.pageMainHead:before {
+  background-color: #fff;
 }
