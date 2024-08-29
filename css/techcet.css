@@ -1980,14 +1980,33 @@ body .phStickyWrap {
   min-height: 0%;
 }
 
-/******* Home - Three cards section ********/
+/********* Home - Three cards section **********/
 .three-cards {
   padding-left: 50px;
   padding-right: 50px;
   height: 100%;
 }
 
-/******** Consulting - breadcrumb section *********/
+/************ Breadcrumb section *************/
 .pageMainHead:before {
   background-color: #fff;
+}
+
+/************ News Landing page **************/
+.searchWrap {
+  border: 1px solid var(--light-grey);
+  padding: 0;
+}
+
+.searchField:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.searchBtn:focus {
+  outline: none;
+}
+.searchBtn:active {
+  background-color: var(--light-grey);
 }
