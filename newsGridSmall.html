@@ -226,10 +226,10 @@
           class="ItemfullBlock pt-7 pb-7 pt-md-10 pb-md-9 pt-lg-14 pb-lg-13 pt-xl-22 pb-xl-19"
         >
           <div class="container pb-7 pb-md-9 pb-lg-13 pb-xl-19">
-            <form
-              class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center"
+            <div
+              class="d-flex flex-column flex-sm-row justify-content-sm-end align-items-center align-items-sm-end"
             >
-              <div
+              <!-- <div
                 class="searchWrap d-flex justify-content-start align-items-center mb-sm-0 mb-5"
               >
                 <input
@@ -245,19 +245,46 @@
                     ><span class="sr-only">icon</span></i
                   >
                 </button>
+              </div> -->
+              <div class="sortWrap mr-sm-10 mb-sm-0 mb-5">
+                <form class="h-100">
+                  <label for="category">Sort:&nbsp;&nbsp;</label>
+                  <select
+                    id="category"
+                    name="category"
+                    class="categoryField px-3 py-2 h-100"
+                  >
+                    <option value="">Choose Category</option>
+                    <option value="technology">Technology</option>
+                    <option value="science">Science</option>
+                    <option value="business">Business</option>
+                    <option value="health">Health</option>
+                    <option value="education">Education</option>
+                  </select>
+                </form>
               </div>
-              <div class="sortWrap">
-                <label for="category">Sort:&nbsp;&nbsp;</label>
-                <select id="category" name="category" class="px-2 py-1 h-100">
-                  <option value="">Choose Category</option>
-                  <option value="technology">Technology</option>
-                  <option value="science">Science</option>
-                  <option value="business">Business</option>
-                  <option value="health">Health</option>
-                  <option value="education">Education</option>
-                </select>
+              <div class="widget widgetSearch mb-sm-0 mb-5">
+                <form action="#" class="searchForm">
+                  <div class="input-group">
+                    <input
+                      type="search"
+                      class="form-control"
+                      placeholder="Search Here…"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        class="btn btnTheme btnNoOver d-flex align-items-center justify-content-center"
+                        type="button"
+                      >
+                        <i class="icomoon-search"
+                          ><span class="sr-only">search</span></i
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
-            </form>
+            </div>
           </div>
           <div class="container">
             <div class="row">
