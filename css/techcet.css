@@ -1999,3 +1999,26 @@ body .phStickyWrap {
 .categoryField:focus {
   outline: none;
 }
+
+/******* Reports & reports submenu pages ********/
+.activeProductCategory {
+  font-weight: 700;
+}
+
+/****** Events Calendar page ********/
+.form-group .with-icon {
+  position: relative;
+  padding-right: 30px; /* Adjust the padding to fit the icon */
+}
+
+.form-group .with-icon::after {
+  content: "\f073"; /* FontAwesome unicode for calendar icon */
+  font-family: "Font Awesome 5 Free"; /* Ensure you're using the correct font */
+  font-weight: 900; /* FontAwesome solid icon weight */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none; /* Ensures the icon doesn't interfere with clicking */
+}
