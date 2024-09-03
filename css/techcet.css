@@ -1987,6 +1987,12 @@ body .phStickyWrap {
   height: 100%;
 }
 
+.escCaption.bg-white.shadow.pt-4.px-2.pb-5 {
+  margin-top: -50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 /************ Breadcrumb section *************/
 .pageMainHead:before {
   background-color: #fff;
