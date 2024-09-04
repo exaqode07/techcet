@@ -1982,15 +1982,24 @@ body .phStickyWrap {
 
 /********* Home - Three cards section **********/
 .three-cards {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
   height: 100%;
 }
 
-.escCaption.bg-white.shadow.pt-4.px-2.pb-5 {
+.escCaption.bg-white.shadow {
   margin-top: -50px;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.esColumn h3 {
+  font-size: 20px;
+}
+
+/******** Home - counter section **********/
+.counterftAsideBlock {
+  min-height: 0;
 }
 
 /************ Breadcrumb section *************/
@@ -2014,17 +2023,22 @@ body .phStickyWrap {
 /****** Events Calendar page ********/
 .form-group .with-icon {
   position: relative;
-  padding-right: 30px; /* Adjust the padding to fit the icon */
+  padding-right: 30px;
 }
 
 .form-group .with-icon::after {
-  content: "\f073"; /* FontAwesome unicode for calendar icon */
-  font-family: "Font Awesome 5 Free"; /* Ensure you're using the correct font */
-  font-weight: 900; /* FontAwesome solid icon weight */
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   position: absolute;
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
   color: #aaa;
-  pointer-events: none; /* Ensures the icon doesn't interfere with clicking */
+  pointer-events: none;
+}
+
+/********* About us page *********/
+.counterftAsideBlock.counterftAsideBlockvii {
+  min-height: 0;
 }

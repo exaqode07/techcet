@@ -354,6 +354,9 @@
   .three-cards-container {
     row-gap: 40px;
   }
+  .esColumn h3 {
+    font-size: 18px;
+  }
 }
 @media (max-width: 640px) {
   .notification-li-box {
