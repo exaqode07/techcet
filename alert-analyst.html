@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- set the page title -->
+	<title>Dashboard</title>
+	<!-- inlcude google nunito sans font cdn link -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<!-- inlcude google cabin font cdn link -->
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<!-- include the site bootstrap stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<!-- include theme color setting stylesheet -->
+	<link rel="stylesheet" href="css/colors.css">
+	<link rel="stylesheet" href="css/techcet.css">
+	<!-- include the site responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<!-- pageWrapper -->
+	<div id="pageWrapper">
+		<!-- phStickyWrap -->
+		<div class="phStickyWrap">
+			<!-- pageHeader -->
+			<header class="bg-darkblue dashboard-section">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-xl navbar-light">
+						<a  class="navbar-brand" href="home.html">
+							<img src="images/logo.png" class="img-fluid" alt="egovt">
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					  
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav dashmanu mainNavigation d-flex justify-content-between w-100">
+								<li class="nav-item">
+									<a class="nav-link" href="#" role="button"  aria-haspopup="true" aria-expanded="false">About Us</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="#" role="button"  aria-haspopup="true" aria-expanded="false">Consulting</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" role="button"  aria-haspopup="true" aria-expanded="false">Report Info</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" >Memberships Info</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" >Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" >News</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" >Contact Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" >Language</a>
+								</li>
+								<li class="nav-item dropdown ddohOpener">
+									<a class="nav-link active dropdown-toggle dropIcn" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Member Portal</a>
+									<div class="dropdown-menu hdMainDropdown desktopDropOnHover">
+										<ul class="list-unstyled mb-0 hdDropdownList">
+											<li><a class="dropdown-item" href="#">My Dashboard</a></li>
+											<li><a class="dropdown-item" href="#">Reports and Updates</a></li>
+											<li><a class="dropdown-item" href="#">Meeting Presentations</a></li>
+											<li><a class="dropdown-item" href="#">Conference Presentations</a></li>
+											<li><a class="dropdown-item" href="#">Analyst Alerts</a></li>
+											<li><a class="dropdown-item" href="#">Log Out </a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					  </nav>
+				</div>
+			</header>
+			<aside id="leftSidebar" class="left-sidebar d-lg-block d-sm-none">
+				<div class="sidebar-menu">
+					<nav class="navbar navbar-expand-md pr-0">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+							<span class="navbar-toggler-icon"></span>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+							<ul class="navbar-nav siderbar-nav w-100">
+							<li class="nav-item ">
+								<a class="nav-link  d-flex align-items-center" aria-current="page" href="dashboard.html">
+									<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 8.48539C1 8.05443 1.21935 7.65012 1.58867 7.40037L10.6887 1.24637C11.1744 0.917877 11.8256 0.917878 12.3113 1.24637L21.4113 7.40037C21.7806 7.65012 22 8.05443 22 8.48539V20.0029C22 21.1059 21.0598 22 19.9 22H3.1C1.9402 22 1 21.1059 1 20.0029V8.48539Z" fill="#FFFFF"/>
+										<path d="M8 22V14.0116C8 13.2763 8.6268 12.6802 9.4 12.6802H13.6C14.3732 12.6802 15 13.2763 15 14.0116V22M10.6887 1.24637L1.58867 7.40037C1.21935 7.65012 1 8.05443 1 8.48539V20.0029C1 21.1059 1.9402 22 3.1 22H19.9C21.0598 22 22 21.1059 22 20.0029V8.48539C22 8.05443 21.7806 7.65012 21.4113 7.40037L12.3113 1.24637C11.8256 0.917878 11.1744 0.917877 10.6887 1.24637Z" fill="#ffffff"  stroke-linecap="round"/>
+									</svg>
+									My Dashboard
+								</a>
+								
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-flex align-items-center" href="reports.html">
+									<svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M3.35016 2.98894V3.98342H15.7339V2.98894H3.35016ZM3.35016 5.33701V6.24862H15.7339V5.33701H3.35016ZM3.35016 7.60773V8.50829H15.7339V7.60773H3.35016ZM3.35016 9.8674V10.8619H13.802V9.8674H3.35016ZM3.35016 12.1326V13.1271H10.2913V12.1326H3.35016ZM11.1583 19.3812V20.3702H16.8685V19.3812H11.1583ZM19.7745 11.4972L14.8563 16.5691L16.1728 17.8398L21 12.768L19.7745 11.4972ZM14.1552 18.5635L15.1185 18.2873L16.0015 17.9282L15.3807 17.2928L14.7706 16.663L14.5031 17.5635L14.1552 18.558V18.5635ZM0.535168 0H19.0627V11.9558L18.0138 12.9448V0.994469H1.05963V21.9171H18.0138V16.116L19.0627 15.1271V23H0V0H0.529819H0.535168Z" fill="white"/>
+									</svg>
+									Reports
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-flex align-items-center" href="recent-presentations.html">
+									<svg width="19" height="27" viewBox="0 0 19 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0988 13.7076H1.89513V3.60692H17.0988V13.7076ZM13.8935 6.0591H15.5997V7.86906H14.1982L12.5103 9.56872V10.8467H10.6944V9.56872C10.2008 9.14705 9.5975 8.51129 9.09782 8.08313H7.69628C6.89801 8.82916 5.49647 9.9904 4.6068 10.7364V12.0144H2.80917V10.2045H4.40571L7.61097 7.64849V6.26021H9.31719V7.64849C9.81078 7.95988 10.414 8.49832 10.8162 8.91999H12.3153C12.8089 8.49832 13.5096 7.86258 13.9057 7.42793V6.05263L13.8935 6.0591ZM18.0067 1.69966H10.408C10.5055 1.47909 10.5969 1.37531 10.5969 1.16772C10.5969 0.531968 10.1033 0 9.5 0C8.89673 0 8.40314 0.531968 8.40314 1.16772C8.40314 1.3818 8.40314 1.47909 8.50064 1.69966H1.00545C0.402181 1.69966 0 2.11485 0 2.75709V14.6677C0 15.3035 0.396087 15.7251 1.00545 15.7251H7.11129L6.01443 26.1502C5.80725 26.4616 6.01443 26.7859 6.30083 26.7859L6.8127 27C7.11738 27 7.40378 26.7859 7.51347 26.4681L8.80532 15.7316H10.2069L11.4195 26.4681C11.6084 26.7924 11.9131 27 12.2178 27L12.6139 26.7859C12.9003 26.7859 13.1074 26.4616 13.0099 26.1502L11.7973 15.7251H18.0128C18.5064 15.7251 19 15.3035 19 14.6677V2.75709C19 2.11485 18.6039 1.69966 18.0128 1.69966H18.0067Z" fill="white"/>
+									</svg>
+									Recent Presentations
+									<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1L5.52112 5.21894L1 9.43787" stroke="white" stroke-width="0.864103" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+										
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active activebox  d-flex align-items-center" href="Analyst.html">
+									<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 0L12.8574 7.60081H20.4861L14.3143 12.2984L16.6717 19.8992L10.5 15.2016L4.32825 19.8992L6.68565 12.2984L0.513906 7.60081H8.1426L10.5 0Z" fill="#EC403B"/>
+									</svg>
+									Analyst News Alerts
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link  d-flex align-items-center" href="datasets.html">
+									<svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.33188 19H7.71736V8.37159H4.33188V19ZM11.1919 19H14.5774V11.7416H11.1919V19ZM17.6065 19H21.0811V8.37159H17.6065V19ZM6.35358 4.3764L13.3233 9.37039L23 1.624L21.9994 0L13.3233 6.9992L6.47693 2.12721L-0.000187792 5.93559L0.78793 7.55959L6.35358 4.3764Z" fill="white"/>
+									</svg> 
+									Datasets
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-flex align-items-center" href="my-account.html">
+									<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M14.6254 18.1416L14.6257 14.9279C14.6259 13.1527 13.1868 11.7135 11.4116 11.7135H4.21442C2.43948 11.7135 1.00056 13.1523 1.00036 14.9272L1 18.1416M20.1997 18.1418L20.2 14.928C20.2002 13.1529 18.7611 11.7137 16.9859 11.7137M14.0063 1.63141C14.7956 2.21705 15.3072 3.1559 15.3072 4.21423C15.3072 5.27256 14.7956 6.21142 14.0063 6.79705M11.0938 4.21406C11.0938 5.98913 9.65482 7.42811 7.87974 7.42811C6.10467 7.42811 4.66569 5.98913 4.66569 4.21406C4.66569 2.43898 6.10467 1 7.87974 1C9.65482 1 11.0938 2.43898 11.0938 4.21406Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									
+									My Account
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-flex align-items-center" href="home.html">
+									<svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_89_967)">
+										<path d="M1.68611 9.48599L8.25808 9.48599C8.5485 9.48599 8.78389 9.71613 8.78389 9.99982C8.78389 10.2837 8.5485 10.5138 8.25808 10.5138L1.68645 10.5138L3.82399 12.882C4.0158 13.0937 3.99544 13.4173 3.77873 13.6045C3.56201 13.7918 3.23071 13.7721 3.03907 13.5604L0.13141 10.339C-0.0471126 10.1419 -0.0417281 9.84764 0.134774 9.65705L3.03924 6.43928C3.23105 6.22736 3.56218 6.20767 3.7789 6.39517C3.99545 6.58251 4.01581 6.90607 3.82416 7.11782L1.68611 9.48599ZM7.86655 1.01008C7.58236 0.943509 7.40771 0.666654 7.47653 0.391752C7.54535 0.116849 7.83138 -0.0522582 8.11574 0.0144724C8.75529 0.164539 9.39147 0.286447 9.97532 0.398263C13.2457 1.02489 15 1.36083 15 5.86083L15 14.4355C15 18.7044 13.1357 19.0415 10.048 19.5996C9.44699 19.7082 8.79483 19.826 8.11574 19.9855C7.83155 20.0521 7.54534 19.8831 7.47653 19.6081C7.40788 19.3332 7.58236 19.0563 7.86655 18.9897C8.58854 18.8203 9.24643 18.7015 9.85283 18.5918C12.3997 18.1315 13.9375 17.8535 13.9375 14.4355L13.9375 5.86083C13.9375 2.20409 12.4832 1.92544 9.77207 1.40608C9.20302 1.29703 8.58299 1.17805 7.86655 1.01008Z" fill="white"/>
+										</g>
+										<defs>
+										<clipPath id="clip0_89_967">
+										<rect width="15" height="20" fill="white" transform="translate(15 20) rotate(-180)"/>
+										</clipPath>
+										</defs>
+										</svg>
+										
+									LogOut
+								</a>
+							</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</aside>
+		</div>
+		<main>
+		 
+			<!-- Dashboard -->
+			<div class="page-content-section">
+				<div class="container-fluid">
+					<div class="d-flex justify-content-end">
+						<div class="col-xlwd-10 col-lg-9">
+							<div class="inner-content-box">
+								<div class="col-md-12">
+									<div class="heading-dashboard d-flex justify-content-end align-items-center">
+										
+										<div class="btn-group pull-right top-head-dropdown">
+											<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<img src="images/bell.svg" alt="notification-bell">
+											</button>
+											<ul class="dropdown-menu dropdown-menu-right">
+											  <li>
+												<a href="#" class="top-text-block">
+												  <div class="top-text-heading">Notification <b>1</b></div>
+												  <div class="top-text-light">15 minutes ago</div>
+												</a> 
+											  </li>
+											  <li>
+												<a href="#" class="top-text-block">
+												  <div class="top-text-heading">Notification <b>2</b></b></div>
+												  <div class="top-text-light">2 hours ago</div>
+												</a> 
+											  </li>
+											</ul>
+										</div>
+									</div>
+									<div class="sub-report-section recent-dropdown">
+										
+										<div class="container my-5">
+											<!-- Header Section -->
+											<header class="mb-4">
+												<h1 class="h2">Advanced Chip Process Development Grows ALD/CVD Materials</h1>
+												<p class="text-muted">May 30, 2024 &bullet; Sachi Brown</p>
+												<p class="text-muted">MoO2Cl2 and WF6 projected highest growth amid supply chain resilience caution</p>
+											</header>
+									
+											<!-- Content Section -->
+											<section>
+												<p><strong>San Diego, CA, May 30, 2024:</strong> TECHCET—the advisory firm providing materials market information for semiconductor supply chain resilience—is forecasting the Semiconductor Precursor Materials Market to rebound by 15% in 2024, reaching $1.7 billion. This growth is driven by the recovery of the Logic and DRAM segments, alongside advancements in AI applications, as highlighted in TECHCET’s Newly Released Critical Materials Reports™ on ALD Hi-K Metals and CVD Dielectrics.</p>
+											</section>
+									
+											<!-- Chart Section -->
+											<div class="row my-4">
+												<div class="col-md-12">
+													<img src="https://via.placeholder.com/800x400" alt="Semiconductor ALD/CVD Precursors Market Forecast" class="img-fluid">
+												</div>
+											</div>
+									
+											<!-- Article Body -->
+											<section>
+												<p>“Significant investments, driving materials development, are being made in advanced process technologies such as GAA FETs, EUV lithography, and high-k/metal gate transistors,” stated Lita Shon-Roy, TECHCET’s President/CEO. These advancements are crucial for next-generation Logic, DRAM, and 3D NAND devices.</p>
+									
+												<p>Molybdenum (Mo) precursors, specifically MoO2Cl2, are projected to have the highest 5-year CAGR among metal precursors at 50%. Mo growth is driven by its application in next-generation devices due to favorable electrical properties. The demand for Tungsten Hexafluoride (WF6) is also expected to recover strongly, with an 18% increase in 2024. Tungsten is favored for its low resistivity and criticality for advanced semiconductor processes.</p>
+									
+												<p>Major industry players are expanding their production capacities to meet growing demand. Companies such as Air Liquide, Merck, and Gelest/Mitsubishi Chemical Group are making significant investments in facilities in key regions like Taiwan, South Korea, and the USA.</p>
+									
+												<p>Geopolitical tensions, particularly involving China and Russia, impact the global supply of critical metals, with China dominating production (e.g., Zr, Ge, Ga, Re) and Russia facing sanctions that disrupt supply chains. Coordinated supply chains for metals like cobalt, tungsten, and gallium increase vulnerability to disruptions from trade issues as well as from local issues such as labor strikes, regulatory changes, or natural disasters. This threat to supply chain resilience elevates the need for supply diversification and robust supply chain management.</p>
+									
+												<p>The newly released TECHCET Critical Materials Reports™ on ALD Hi-K Metals and CVD Dielectrics contains details on market and technology trends in addition to an extensive list of supplier profiles. For the full table of contents or to request a sample report, visit <a href="https://techcet.com/product-category/ald-cvd-precursors/" target="_blank">TECHCET's website</a>.</p>
+											</section>
+									
+											<!-- About Section -->
+											<section class="mt-4">
+												<h2>About TECHCET</h2>
+												<p>TECHCET CA LLC is an advisory services firm expert in market and supply-chain analysis of electronic materials for the semiconductor, display, solar/PV, and LED industries. TECHCET offers consulting, subscription services, and reports, including the Critical Materials Council (CMC) of semiconductor fabricators and Data Subscription Service (DSS). For additional information, please email us <a href="mailto:info@techcet.com">here</a>, call +1-480-332-8336, or go to <a href="https://www.techcet.com">www.techcet.com</a>.</p>
+											</section>
+										</div>
+											
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+			
+	</main>
+		<!-- /*****mobile-navbar******/ -->
+		<div class="mobile-nav-overlay">
+			<div class="recent-box-popup">
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<h3 class="m-0">Recent Presentations</h3>
+					<i class="fa-solid fa-xmark"></i>
+				</div>
+				<div class="d-flex flex-column">
+					<a href="fab-meeting.html">Fab Only Meetings</a>
+					<a href="joint-meet.html">Joint Session Meetings</a>
+					<a href="webinars.html">Advisory Alert Webinars</a>
+					<a href="seminar.html">CMC Conferences and Seminars</a>
+				</div>
+			</div>
+		</div>
+
+	
+		<div class="mobile-nav-set-overlay">
+			<div class="setting-box-pupop">
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<h3 class="m-0">More</h3>
+					<i class="fa-solid fa-xmark"></i>
+				</div>
+				<div class="d-flex flex-column">
+					<a class="d-flex align-items-center" href="datasets.html">
+						<svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M4.33188 19H7.71736V8.37159H4.33188V19ZM11.1919 19H14.5774V11.7416H11.1919V19ZM17.6065 19H21.0811V8.37159H17.6065V19ZM6.35358 4.3764L13.3233 9.37039L23 1.624L21.9994 0L13.3233 6.9992L6.47693 2.12721L-0.000187792 5.93559L0.78793 7.55959L6.35358 4.3764Z" fill="#000000"/>
+						</svg>&nbsp;
+						Datasets
+					</a>
+					<a class="d-flex align-items-center" href="my-account.html">
+						<svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14.6254 18.1416L14.6257 14.9279C14.6259 13.1527 13.1868 11.7135 11.4116 11.7135H4.21442C2.43948 11.7135 1.00056 13.1523 1.00036 14.9272L1 18.1416M20.1997 18.1418L20.2 14.928C20.2002 13.1529 18.7611 11.7137 16.9859 11.7137M14.0063 1.63141C14.7956 2.21705 15.3072 3.1559 15.3072 4.21423C15.3072 5.27256 14.7956 6.21142 14.0063 6.79705M11.0938 4.21406C11.0938 5.98913 9.65482 7.42811 7.87974 7.42811C6.10467 7.42811 4.66569 5.98913 4.66569 4.21406C4.66569 2.43898 6.10467 1 7.87974 1C9.65482 1 11.0938 2.43898 11.0938 4.21406Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>&nbsp;
+						My Account
+					</a>
+					<a class="d-flex align-items-center" href="home.html">
+						<svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_89_967)">
+								<path d="M1.68611 9.48599L8.25808 9.48599C8.5485 9.48599 8.78389 9.71613 8.78389 9.99982C8.78389 10.2837 8.5485 10.5138 8.25808 10.5138L1.68645 10.5138L3.82399 12.882C4.0158 13.0937 3.99544 13.4173 3.77873 13.6045C3.56201 13.7918 3.23071 13.7721 3.03907 13.5604L0.13141 10.339C-0.0471126 10.1419 -0.0417281 9.84764 0.134774 9.65705L3.03924 6.43928C3.23105 6.22736 3.56218 6.20767 3.7789 6.39517C3.99545 6.58251 4.01581 6.90607 3.82416 7.11782L1.68611 9.48599ZM7.86655 1.01008C7.58236 0.943509 7.40771 0.666654 7.47653 0.391752C7.54535 0.116849 7.83138 -0.0522582 8.11574 0.0144724C8.75529 0.164539 9.39147 0.286447 9.97532 0.398263C13.2457 1.02489 15 1.36083 15 5.86083L15 14.4355C15 18.7044 13.1357 19.0415 10.048 19.5996C9.44699 19.7082 8.79483 19.826 8.11574 19.9855C7.83155 20.0521 7.54534 19.8831 7.47653 19.6081C7.40788 19.3332 7.58236 19.0563 7.86655 18.9897C8.58854 18.8203 9.24643 18.7015 9.85283 18.5918C12.3997 18.1315 13.9375 17.8535 13.9375 14.4355L13.9375 5.86083C13.9375 2.20409 12.4832 1.92544 9.77207 1.40608C9.20302 1.29703 8.58299 1.17805 7.86655 1.01008Z" fill="#000000"/>
+							</g>
+							<defs>
+								<clipPath id="clip0_89_967">
+									<rect width="15" height="20" fill="white" transform="translate(15 20) rotate(-180)"/>
+								</clipPath>
+							</defs>
+						</svg>&nbsp;
+						LogOut
+					</a>
+				</div>
+			</div>
+		</div>		
+		<!-- /*****mobile-navbar******/ -->
+	
+		<!-- pageFooter -->
+		<footer id="pageFooter" class="text-center bg-dark d-lg-none mobile-navigation">
+			<div class="container-fluid">
+				<div class="w-100 my-3">
+					  <nav class="nav nav--icons">
+						<ul class="w-100">
+						  <li class="d-flex flex-column">
+							<a href="dashboard.html">
+							<svg width="30" height="30" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 8.48539C1 8.05443 1.21935 7.65012 1.58867 7.40037L10.6887 1.24637C11.1744 0.917877 11.8256 0.917878 12.3113 1.24637L21.4113 7.40037C21.7806 7.65012 22 8.05443 22 8.48539V20.0029C22 21.1059 21.0598 22 19.9 22H3.1C1.9402 22 1 21.1059 1 20.0029V8.48539Z" fill="#FFFFF"/>
+								<path d="M8 22V14.0116C8 13.2763 8.6268 12.6802 9.4 12.6802H13.6C14.3732 12.6802 15 13.2763 15 14.0116V22M10.6887 1.24637L1.58867 7.40037C1.21935 7.65012 1 8.05443 1 8.48539V20.0029C1 21.1059 1.9402 22 3.1 22H19.9C21.0598 22 22 21.1059 22 20.0029V8.48539C22 8.05443 21.7806 7.65012 21.4113 7.40037L12.3113 1.24637C11.8256 0.917878 11.1744 0.917877 10.6887 1.24637Z" fill="#ffffff"  stroke-linecap="round"/>
+							</svg>
+							</a>
+							Dashboard
+						  </li>
+						  <li class="d-flex flex-column">
+							<a href="reports.html">
+								<svg width="30" height="30" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M3.35016 2.98894V3.98342H15.7339V2.98894H3.35016ZM3.35016 5.33701V6.24862H15.7339V5.33701H3.35016ZM3.35016 7.60773V8.50829H15.7339V7.60773H3.35016ZM3.35016 9.8674V10.8619H13.802V9.8674H3.35016ZM3.35016 12.1326V13.1271H10.2913V12.1326H3.35016ZM11.1583 19.3812V20.3702H16.8685V19.3812H11.1583ZM19.7745 11.4972L14.8563 16.5691L16.1728 17.8398L21 12.768L19.7745 11.4972ZM14.1552 18.5635L15.1185 18.2873L16.0015 17.9282L15.3807 17.2928L14.7706 16.663L14.5031 17.5635L14.1552 18.558V18.5635ZM0.535168 0H19.0627V11.9558L18.0138 12.9448V0.994469H1.05963V21.9171H18.0138V16.116L19.0627 15.1271V23H0V0H0.529819H0.535168Z" fill="white"/>
+								</svg>
+							</a>
+							Reports
+						  </li>
+						  <li class="d-flex flex-column">
+							<a class="recent-mobilebox" href="#">
+								<svg width="30" height="30" viewBox="0 0 19 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0988 13.7076H1.89513V3.60692H17.0988V13.7076ZM13.8935 6.0591H15.5997V7.86906H14.1982L12.5103 9.56872V10.8467H10.6944V9.56872C10.2008 9.14705 9.5975 8.51129 9.09782 8.08313H7.69628C6.89801 8.82916 5.49647 9.9904 4.6068 10.7364V12.0144H2.80917V10.2045H4.40571L7.61097 7.64849V6.26021H9.31719V7.64849C9.81078 7.95988 10.414 8.49832 10.8162 8.91999H12.3153C12.8089 8.49832 13.5096 7.86258 13.9057 7.42793V6.05263L13.8935 6.0591ZM18.0067 1.69966H10.408C10.5055 1.47909 10.5969 1.37531 10.5969 1.16772C10.5969 0.531968 10.1033 0 9.5 0C8.89673 0 8.40314 0.531968 8.40314 1.16772C8.40314 1.3818 8.40314 1.47909 8.50064 1.69966H1.00545C0.402181 1.69966 0 2.11485 0 2.75709V14.6677C0 15.3035 0.396087 15.7251 1.00545 15.7251H7.11129L6.01443 26.1502C5.80725 26.4616 6.01443 26.7859 6.30083 26.7859L6.8127 27C7.11738 27 7.40378 26.7859 7.51347 26.4681L8.80532 15.7316H10.2069L11.4195 26.4681C11.6084 26.7924 11.9131 27 12.2178 27L12.6139 26.7859C12.9003 26.7859 13.1074 26.4616 13.0099 26.1502L11.7973 15.7251H18.0128C18.5064 15.7251 19 15.3035 19 14.6677V2.75709C19 2.11485 18.6039 1.69966 18.0128 1.69966H18.0067Z" fill="#ffffff"/>
+								</svg>
+							</a>
+							Recent
+						  </li>
+						  <li class="d-flex flex-column">
+							<a href="Analyst.html">
+								<svg width="30" height="30" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10.5 0L12.8574 7.60081H20.4861L14.3143 12.2984L16.6717 19.8992L10.5 15.2016L4.32825 19.8992L6.68565 12.2984L0.513906 7.60081H8.1426L10.5 0Z" fill="white"/>
+								</svg>
+							</a>
+							Analyst
+						  </li>
+						  <li class="d-flex flex-column">
+							<a class="setting-mobile-menu" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30" height="30"><path d="M 22.205078 2 A 1.0001 1.0001 0 0 0 21.21875 2.8378906 L 20.246094 8.7929688 C 19.076509 9.1331971 17.961243 9.5922728 16.910156 10.164062 L 11.996094 6.6542969 A 1.0001 1.0001 0 0 0 10.708984 6.7597656 L 6.8183594 10.646484 A 1.0001 1.0001 0 0 0 6.7070312 11.927734 L 10.164062 16.873047 C 9.583454 17.930271 9.1142098 19.051824 8.765625 20.232422 L 2.8359375 21.21875 A 1.0001 1.0001 0 0 0 2.0019531 22.205078 L 2.0019531 27.705078 A 1.0001 1.0001 0 0 0 2.8261719 28.691406 L 8.7597656 29.742188 C 9.1064607 30.920739 9.5727226 32.043065 10.154297 33.101562 L 6.6542969 37.998047 A 1.0001 1.0001 0 0 0 6.7597656 39.285156 L 10.648438 43.175781 A 1.0001 1.0001 0 0 0 11.927734 43.289062 L 16.882812 39.820312 C 17.936999 40.39548 19.054994 40.857928 20.228516 41.201172 L 21.21875 47.164062 A 1.0001 1.0001 0 0 0 22.205078 48 L 27.705078 48 A 1.0001 1.0001 0 0 0 28.691406 47.173828 L 29.751953 41.1875 C 30.920633 40.838997 32.033372 40.369697 33.082031 39.791016 L 38.070312 43.291016 A 1.0001 1.0001 0 0 0 39.351562 43.179688 L 43.240234 39.287109 A 1.0001 1.0001 0 0 0 43.34375 37.996094 L 39.787109 33.058594 C 40.355783 32.014958 40.813915 30.908875 41.154297 29.748047 L 47.171875 28.693359 A 1.0001 1.0001 0 0 0 47.998047 27.707031 L 47.998047 22.207031 A 1.0001 1.0001 0 0 0 47.160156 21.220703 L 41.152344 20.238281 C 40.80968 19.078827 40.350281 17.974723 39.78125 16.931641 L 43.289062 11.933594 A 1.0001 1.0001 0 0 0 43.177734 10.652344 L 39.287109 6.7636719 A 1.0001 1.0001 0 0 0 37.996094 6.6601562 L 33.072266 10.201172 C 32.023186 9.6248101 30.909713 9.1579916 29.738281 8.8125 L 28.691406 2.828125 A 1.0001 1.0001 0 0 0 27.705078 2 L 22.205078 2 z M 23.056641 4 L 26.865234 4 L 27.861328 9.6855469 A 1.0001 1.0001 0 0 0 28.603516 10.484375 C 30.066026 10.848832 31.439607 11.426549 32.693359 12.185547 A 1.0001 1.0001 0 0 0 33.794922 12.142578 L 38.474609 8.7792969 L 41.167969 11.472656 L 37.835938 16.220703 A 1.0001 1.0001 0 0 0 37.796875 17.310547 C 38.548366 18.561471 39.118333 19.926379 39.482422 21.380859 A 1.0001 1.0001 0 0 0 40.291016 22.125 L 45.998047 23.058594 L 45.998047 26.867188 L 40.279297 27.871094 A 1.0001 1.0001 0 0 0 39.482422 28.617188 C 39.122545 30.069817 38.552234 31.434687 37.800781 32.685547 A 1.0001 1.0001 0 0 0 37.845703 33.785156 L 41.224609 38.474609 L 38.53125 41.169922 L 33.791016 37.84375 A 1.0001 1.0001 0 0 0 32.697266 37.808594 C 31.44975 38.567585 30.074755 39.148028 28.617188 39.517578 A 1.0001 1.0001 0 0 0 27.876953 40.3125 L 26.867188 46 L 23.052734 46 L 22.111328 40.337891 A 1.0001 1.0001 0 0 0 21.365234 39.53125 C 19.90185 39.170557 18.522094 38.59371 17.259766 37.835938 A 1.0001 1.0001 0 0 0 16.171875 37.875 L 11.46875 41.169922 L 8.7734375 38.470703 L 12.097656 33.824219 A 1.0001 1.0001 0 0 0 12.138672 32.724609 C 11.372652 31.458855 10.793319 30.079213 10.427734 28.609375 A 1.0001 1.0001 0 0 0 9.6328125 27.867188 L 4.0019531 26.867188 L 4.0019531 23.052734 L 9.6289062 22.117188 A 1.0001 1.0001 0 0 0 10.435547 21.373047 C 10.804273 19.898143 11.383325 18.518729 12.146484 17.255859 A 1.0001 1.0001 0 0 0 12.111328 16.164062 L 8.8261719 11.46875 L 11.523438 8.7734375 L 16.185547 12.105469 A 1.0001 1.0001 0 0 0 17.28125 12.148438 C 18.536908 11.394293 19.919867 10.822081 21.384766 10.462891 A 1.0001 1.0001 0 0 0 22.132812 9.6523438 L 23.056641 4 z M 25 17 C 20.593567 17 17 20.593567 17 25 C 17 29.406433 20.593567 33 25 33 C 29.406433 33 33 29.406433 33 25 C 33 20.593567 29.406433 17 25 17 z M 25 19 C 28.325553 19 31 21.674447 31 25 C 31 28.325553 28.325553 31 25 31 C 21.674447 31 19 28.325553 19 25 C 19 21.674447 21.674447 19 25 19 z" fill="#ffffff"/></svg>
+							</a>
+							More
+						  </li>
+						</ul>
+					  </nav>
+				  </div>
+			</div>
+		</footer>
+	</div>
+	<!-- include jQuery library -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- include custom JavaScript -->
+	<script src="js/jqueryCustom.js"></script>
+	<!-- include plugins JavaScript -->
+	<script src="js/plugins.js"></script>
+	<!-- include fontAwesome -->
+	<script src="https://kit.fontawesome.com/391f644c42.js"></script>
+</body>
+</html>
