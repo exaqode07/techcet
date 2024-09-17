@@ -2042,3 +2042,17 @@ body .phStickyWrap {
 .counterftAsideBlock.counterftAsideBlockvii {
   min-height: 0;
 }
+
+/******** Event single page **********/
+.widgetUpcoming li {
+  display: block;
+}
+
+.widgetUpcoming .imgHolder {
+  width: 100%;
+}
+
+.eventSubMenuButton {
+  font-size: 14px;
+  background-color: var(--secondary);
+}
